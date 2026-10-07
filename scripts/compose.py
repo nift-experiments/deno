@@ -48,7 +48,7 @@ def split(html):
 
 def human():
     model = []
-    for f in json.loads((ROOT / 'compatibility/fixtures.json').read_text()):
+    for f in json.loads((ROOT / 'data/routes.json').read_text()):
         html = (ROOT / ('.generated/pages/' + f['url'].replace('/', '_') + '.html')).read_text()
         row = {'route': f['url'], 'title': f['url'], 'dependencies': ['compatibility/render.ts', 'compatibility/markdown.ts', 'compatibility/jsx.ts', 'data/page-metadata.json', 'data/shared-metadata.json']}
         if f['sourcePath'].endswith(('.md', '.mdx')):

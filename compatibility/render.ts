@@ -6,7 +6,7 @@ import {MDXEngine} from 'lume/plugins/mdx.ts';
 import {remarkGfm} from 'lume/deps/mdx.ts';
 import {stringToDocument,documentToString} from 'lume/core/utils/dom.ts';
 const started=performance.now();
-const fixtures=JSON.parse(await Deno.readTextFile('compatibility/fixtures.json'));
+const fixtures=JSON.parse(await Deno.readTextFile(Deno.args.includes('--fixtures')?'compatibility/fixtures.json':'data/routes.json'));
 await Deno.mkdir('.generated/pages',{recursive:true});
 const seeds=JSON.parse(await Deno.readTextFile('data/page-metadata.json'));
 const shared=JSON.parse(await Deno.readTextFile('data/shared-metadata.json'));
@@ -45,13 +45,19 @@ for(const f of fixtures){
  let body='',attrs={};
  if(/\.mdx?$/.test(f.sourcePath)){
   const raw=await Deno.readTextFile('authored/'+f.sourcePath.replace(/^\//,''));
-  ({body,attrs}=extractYaml(raw));
+  if(raw.startsWith('---'))({body,attrs}=extractYaml(raw));else body=raw;
  }else if(!gen)throw Error('Unsupported fixture source: '+f.sourcePath);
  const data={...globalData,...metadata[f.url],...inherited(f.sourcePath),...attrs,url:f.url,search};
  if(gen)Object.assign(data,gen);
  data.lastModified=data.last_modified?new Date(data.last_modified):undefined;
  data.page={sourcePath:f.sourcePath,data};
  await components(data,f.url.startsWith('/api/'),f.url.startsWith('/examples/'));
+ if(attrs.templateEngine){
+  if(f.sourcePath!=='/runtime/reference/node_apis.md'||JSON.stringify(attrs.templateEngine)!=='["vto","md"]')throw Error('Unsupported corpus templateEngine: '+f.sourcePath);
+  const marker='{{ await generateNodeCompatibility() }}';
+  if(body.split(marker).length!==2)throw Error('Unexpected Node compatibility expression count');
+  body=body.replace(marker,await data.generateNodeCompatibility());
+ }
  for(const [kind,c]of Object.entries(data.apiCategories??{}))c.getCategoryHref=(name:string)=>kind==='node'?`/api/node/${name}/`:`/api/${kind}/${name==='I/O'?'io':name.toLowerCase().replace(/\s+/g,'-')}`;
  let html=gen?gen.content?await render(gen.content,data):'':f.sourcePath.endsWith('.mdx')?await mdx.render(body,data,f.sourcePath):markdown.render(body,{filename:f.sourcePath,data});
  for(let name=attrs.layout??gen?.layout??f.layout??'doc.tsx';name;){
