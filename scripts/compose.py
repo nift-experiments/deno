@@ -25,7 +25,7 @@ def compose(model):
         wrapper = ''.join('@dep(' + json.dumps(p) + ')' for p in page['dependencies'])
         wrapper += ''.join(emit(page[k]) for k in ('prefix', 'body', 'suffix'))
         changed('.generated/content/' + name + '.html', wrapper)
-        tracked.append({'name': name, 'title': page['title'], 'template': 'templates/template.html'})
+        tracked.append({'name': name, 'title': page['title'] or '', 'template': 'templates/template.html'})
         owned.append('public/' + name + '.html')
     changed('.nift/tracked.json', json.dumps({'tracked': tracked}, indent=2) + '\n')
     ledger = ROOT / '.generated/owned.json'
@@ -48,9 +48,17 @@ def split(html):
 
 def human():
     model = []
+    compiler_inputs={}
+    for directory in ('compatibility','authored/_includes','authored/_components','authored/reference','authored/reference_gen','authored/examples/_components'):
+        for p in sorted((ROOT/directory).rglob('*')):
+            if p.is_file() and p.suffix in ('.ts','.tsx','.jsx','.json','.yaml') and 'reference-warnings.log' not in p.name:
+                compiler_inputs[p.relative_to(ROOT).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+    for p in sorted((ROOT/'authored').rglob('_data.ts')):
+        compiler_inputs[p.relative_to(ROOT).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+    changed('.generated/compiler-inputs.json',json.dumps(compiler_inputs,sort_keys=True)+'\n')
     for f in json.loads((ROOT / 'data/routes.json').read_text()):
         html = (ROOT / ('.generated/pages/' + f['url'].replace('/', '_') + '.html')).read_text()
-        row = {'route': f['url'], 'title': f['url'], 'dependencies': ['compatibility/render.ts', 'compatibility/markdown.ts', 'compatibility/jsx.ts', 'data/page-metadata.json', 'data/shared-metadata.json']}
+        row = {'route': f['url'], 'title': f['url'], 'dependencies': ['.generated/compiler-inputs.json','data/routes.json','scripts/compose.py','compatibility/render.ts', 'compatibility/markdown.ts', 'compatibility/jsx.ts', 'data/page-metadata.json', 'data/shared-metadata.json']}
         if f['sourcePath'].endswith(('.md', '.mdx')):
             row['dependencies'].append('authored/' + f['sourcePath'].lstrip('/'))
         for key, fragment in zip(('prefix', 'body', 'suffix'), split(html)):

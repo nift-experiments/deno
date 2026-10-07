@@ -1,0 +1,10 @@
+import llms from '../authored/generate_llms_files.ts';
+const files=await llms.collectFiles();
+const summary=JSON.parse(await Deno.readTextFile('.generated/search/orama-index-summary.json'));
+await Deno.mkdir('.generated/llms',{recursive:true});
+await Deno.writeTextFile('.generated/llms/llms-summary.txt',llms.generateLlmsSummaryTxt(files));
+await Deno.writeTextFile('.generated/llms/llms-full.txt',llms.generateLlmsFullTxt(files));
+const structured=JSON.parse(llms.generateLlmsJson(summary));
+const clock=JSON.parse(await Deno.readTextFile('data/search-clock.json'));
+structured.metadata.generatedAt=clock.llmsGeneratedAt;
+await Deno.writeTextFile('.generated/llms/llms.json',JSON.stringify(structured,null,2));

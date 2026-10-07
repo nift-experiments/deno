@@ -1,0 +1,11 @@
+{
+  "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+  "render_s": 20.676752779865637,
+  "nift_preparation_and_composition_s": 1.141196140088141,
+  "search_s": 1.9511651450302452,
+  "llms_s": 0.2791083150077611,
+  "og_s": 154.73016942618415,
+  "publication_s": 0.11792324506677687,
+  "non_html_outputs": 1739,
+  "complete_s": 178.89673630101606
+}

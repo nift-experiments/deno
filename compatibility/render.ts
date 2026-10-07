@@ -31,11 +31,13 @@ const search={data:(url:string)=>({...globalData,...metadata[url],...inherited(u
 const mdx=new MDXEngine(Deno.cwd()+'/authored',{includes:'_includes',remarkPlugins:[remarkGfm],components:{}});
 const root=Deno.cwd();
 const generated=new Map();
-for(const source of ['examples/index.examples.page.tsx','lint/lint_rule.page.tsx','reference/reference.page.ts']){
+const ogPages=[];
+for(const source of ['examples/index.examples.page.tsx','examples/index.page.tsx','lint/lint_rule.page.tsx','reference/reference.page.ts']){
  const module=await import(toFileUrl(root+'/authored/'+source).href);
  const base={search};await components(base,source.startsWith('reference/'),source.startsWith('examples/'));
  Deno.chdir(root+'/authored');
  try{for(const item of module.default(base,helpers)){
+  if(item.url==='/api/_redirects.json'){await Deno.writeTextFile(root+'/.generated/api-redirects.json',item.content);continue;}
   const url=item.url.replace(/\/index\.html$/,'/').replace(/\/?$/,'/');
   generated.set(url,{...item,layout:item.layout??module.layout,url});
  }}finally{Deno.chdir(root);}
@@ -46,7 +48,7 @@ for(const f of fixtures){
  if(/\.mdx?$/.test(f.sourcePath)){
   const raw=await Deno.readTextFile('authored/'+f.sourcePath.replace(/^\//,''));
   if(raw.startsWith('---'))({body,attrs}=extractYaml(raw));else body=raw;
- }else if(!gen)throw Error('Unsupported fixture source: '+f.sourcePath);
+ }else if(!gen&&f.sourcePath!=='/lint/index.page.tsx')throw Error('Unsupported fixture source: '+f.sourcePath);
  const data={...globalData,...metadata[f.url],...inherited(f.sourcePath),...attrs,url:f.url,search};
  if(gen)Object.assign(data,gen);
  data.lastModified=data.last_modified?new Date(data.last_modified):undefined;
@@ -59,7 +61,7 @@ for(const f of fixtures){
   body=body.replace(marker,await data.generateNodeCompatibility());
  }
  for(const [kind,c]of Object.entries(data.apiCategories??{}))c.getCategoryHref=(name:string)=>kind==='node'?`/api/node/${name}/`:`/api/${kind}/${name==='I/O'?'io':name.toLowerCase().replace(/\s+/g,'-')}`;
- let html=gen?gen.content?await render(gen.content,data):'':f.sourcePath.endsWith('.mdx')?await mdx.render(body,data,f.sourcePath):markdown.render(body,{filename:f.sourcePath,data});
+ let html=gen?gen.content?await render(gen.content,data):'':f.sourcePath==='/lint/index.page.tsx'?await render((await import(toFileUrl(root+'/authored/lint/index.page.tsx').href)).default,data):f.sourcePath.endsWith('.mdx')?await mdx.render(body,data,f.sourcePath):markdown.render(body,{filename:f.sourcePath,data});
  for(let name=attrs.layout??gen?.layout??f.layout??'doc.tsx';name;){
   const m=await import(toFileUrl(Deno.cwd()+'/authored/_includes/'+name).href);
   html=await render(m.default,{...data,children:html,content:html});name=m.layout;
@@ -70,6 +72,7 @@ for(const f of fixtures){
   const wrap=doc.createElement('div');wrap.className='table-wrapper';table.replaceWith(wrap);wrap.append(table);
  }
  html=documentToString(doc);
+ ogPages.push({route:f.url,title:data.title,description:data.description,openGraphLayout:data.openGraphLayout??'/open_graph/default.jsx',openGraphTitle:data.openGraphTitle,openGraphColor:data.openGraphColor});
  const expected=Deno.args.includes('--verify')?await Deno.readTextFile('../deno-baseline/site/'+f.outputPath.replace(/^\//,'')):html;
  const out='.generated/pages/'+f.url.replaceAll('/','_')+'.html';await Deno.writeTextFile(out,html);
  console.log(JSON.stringify({route:f.url,match:html===expected,bytes:html.length,expected:expected.length}));
@@ -77,3 +80,4 @@ for(const f of fixtures){
 }
 
 await Deno.writeTextFile('.generated/render-metrics.json',JSON.stringify({render_s:(performance.now()-started)/1000,pages:fixtures.length}));
+await Deno.writeTextFile('.generated/og-data.json',JSON.stringify(ogPages));

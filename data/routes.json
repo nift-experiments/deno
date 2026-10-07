@@ -294,6 +294,314 @@
     "kind": "authored-markdown"
   },
   {
+    "url": "/runtime/reference/std/datetime/",
+    "outputPath": "/runtime/reference/std/datetime/index.html",
+    "sourcePath": "/runtime/reference/std/datetime.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/csv/",
+    "outputPath": "/runtime/reference/std/csv/index.html",
+    "sourcePath": "/runtime/reference/std/csv.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/async/",
+    "outputPath": "/runtime/reference/std/async/index.html",
+    "sourcePath": "/runtime/reference/std/async.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/internal/",
+    "outputPath": "/runtime/reference/std/internal/index.html",
+    "sourcePath": "/runtime/reference/std/internal.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/json/",
+    "outputPath": "/runtime/reference/std/json/index.html",
+    "sourcePath": "/runtime/reference/std/json.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/fs/",
+    "outputPath": "/runtime/reference/std/fs/index.html",
+    "sourcePath": "/runtime/reference/std/fs.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/data-structures/",
+    "outputPath": "/runtime/reference/std/data-structures/index.html",
+    "sourcePath": "/runtime/reference/std/data-structures.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/cbor/",
+    "outputPath": "/runtime/reference/std/cbor/index.html",
+    "sourcePath": "/runtime/reference/std/cbor.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/streams/",
+    "outputPath": "/runtime/reference/std/streams/index.html",
+    "sourcePath": "/runtime/reference/std/streams.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/xml/",
+    "outputPath": "/runtime/reference/std/xml/index.html",
+    "sourcePath": "/runtime/reference/std/xml.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/text/",
+    "outputPath": "/runtime/reference/std/text/index.html",
+    "sourcePath": "/runtime/reference/std/text.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/webgpu/",
+    "outputPath": "/runtime/reference/std/webgpu/index.html",
+    "sourcePath": "/runtime/reference/std/webgpu.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/dotenv/",
+    "outputPath": "/runtime/reference/std/dotenv/index.html",
+    "sourcePath": "/runtime/reference/std/dotenv.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/random/",
+    "outputPath": "/runtime/reference/std/random/index.html",
+    "sourcePath": "/runtime/reference/std/random.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/collections/",
+    "outputPath": "/runtime/reference/std/collections/index.html",
+    "sourcePath": "/runtime/reference/std/collections.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/ulid/",
+    "outputPath": "/runtime/reference/std/ulid/index.html",
+    "sourcePath": "/runtime/reference/std/ulid.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/semver/",
+    "outputPath": "/runtime/reference/std/semver/index.html",
+    "sourcePath": "/runtime/reference/std/semver.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/cache/",
+    "outputPath": "/runtime/reference/std/cache/index.html",
+    "sourcePath": "/runtime/reference/std/cache.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/front-matter/",
+    "outputPath": "/runtime/reference/std/front-matter/index.html",
+    "sourcePath": "/runtime/reference/std/front-matter.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/ini/",
+    "outputPath": "/runtime/reference/std/ini/index.html",
+    "sourcePath": "/runtime/reference/std/ini.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/http/",
+    "outputPath": "/runtime/reference/std/http/index.html",
+    "sourcePath": "/runtime/reference/std/http.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/io/",
+    "outputPath": "/runtime/reference/std/io/index.html",
+    "sourcePath": "/runtime/reference/std/io.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/media-types/",
+    "outputPath": "/runtime/reference/std/media-types/index.html",
+    "sourcePath": "/runtime/reference/std/media-types.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/cli/",
+    "outputPath": "/runtime/reference/std/cli/index.html",
+    "sourcePath": "/runtime/reference/std/cli.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/crypto/",
+    "outputPath": "/runtime/reference/std/crypto/index.html",
+    "sourcePath": "/runtime/reference/std/crypto.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/",
+    "outputPath": "/runtime/reference/std/index.html",
+    "sourcePath": "/runtime/reference/std/index.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/fmt/",
+    "outputPath": "/runtime/reference/std/fmt/index.html",
+    "sourcePath": "/runtime/reference/std/fmt.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/regexp/",
+    "outputPath": "/runtime/reference/std/regexp/index.html",
+    "sourcePath": "/runtime/reference/std/regexp.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/bytes/",
+    "outputPath": "/runtime/reference/std/bytes/index.html",
+    "sourcePath": "/runtime/reference/std/bytes.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/msgpack/",
+    "outputPath": "/runtime/reference/std/msgpack/index.html",
+    "sourcePath": "/runtime/reference/std/msgpack.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/testing/",
+    "outputPath": "/runtime/reference/std/testing/index.html",
+    "sourcePath": "/runtime/reference/std/testing.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/math/",
+    "outputPath": "/runtime/reference/std/math/index.html",
+    "sourcePath": "/runtime/reference/std/math.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/path/",
+    "outputPath": "/runtime/reference/std/path/index.html",
+    "sourcePath": "/runtime/reference/std/path.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/assert/",
+    "outputPath": "/runtime/reference/std/assert/index.html",
+    "sourcePath": "/runtime/reference/std/assert.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/log/",
+    "outputPath": "/runtime/reference/std/log/index.html",
+    "sourcePath": "/runtime/reference/std/log.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/uuid/",
+    "outputPath": "/runtime/reference/std/uuid/index.html",
+    "sourcePath": "/runtime/reference/std/uuid.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/encoding/",
+    "outputPath": "/runtime/reference/std/encoding/index.html",
+    "sourcePath": "/runtime/reference/std/encoding.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/expect/",
+    "outputPath": "/runtime/reference/std/expect/index.html",
+    "sourcePath": "/runtime/reference/std/expect.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/jsonc/",
+    "outputPath": "/runtime/reference/std/jsonc/index.html",
+    "sourcePath": "/runtime/reference/std/jsonc.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/toml/",
+    "outputPath": "/runtime/reference/std/toml/index.html",
+    "sourcePath": "/runtime/reference/std/toml.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/net/",
+    "outputPath": "/runtime/reference/std/net/index.html",
+    "sourcePath": "/runtime/reference/std/net.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/yaml/",
+    "outputPath": "/runtime/reference/std/yaml/index.html",
+    "sourcePath": "/runtime/reference/std/yaml.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/tar/",
+    "outputPath": "/runtime/reference/std/tar/index.html",
+    "sourcePath": "/runtime/reference/std/tar.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
+    "url": "/runtime/reference/std/html/",
+    "outputPath": "/runtime/reference/std/html/index.html",
+    "sourcePath": "/runtime/reference/std/html.md",
+    "layout": "doc.tsx",
+    "kind": "generated-markdown"
+  },
+  {
     "url": "/runtime/reference/continuous_integration/",
     "outputPath": "/runtime/reference/continuous_integration/index.html",
     "sourcePath": "/runtime/reference/continuous_integration.md",
@@ -978,6 +1286,13 @@
     "sourcePath": "/orama/README.md",
     "layout": "doc.tsx",
     "kind": "authored-markdown"
+  },
+  {
+    "url": "/lint/",
+    "outputPath": "/lint/index.html",
+    "sourcePath": "/lint/index.page.tsx",
+    "layout": "doc.tsx",
+    "kind": "authored-jsx-listing"
   },
   {
     "url": "/ai/",
@@ -2308,5 +2623,3218 @@
     "sourcePath": "/deploy/getting_started.md",
     "layout": "doc.tsx",
     "kind": "authored-markdown"
+  },
+  {
+    "url": "/lint/rules/explicit-function-return-type/",
+    "outputPath": "/lint/rules/explicit-function-return-type/index.html",
+    "sourcePath": "/lint/lint_rule[0].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/prefer-namespace-keyword/",
+    "outputPath": "/lint/rules/prefer-namespace-keyword/index.html",
+    "sourcePath": "/lint/lint_rule[1].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-non-null-assertion/",
+    "outputPath": "/lint/rules/no-non-null-assertion/index.html",
+    "sourcePath": "/lint/lint_rule[2].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/camelcase/",
+    "outputPath": "/lint/rules/camelcase/index.html",
+    "sourcePath": "/lint/lint_rule[3].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-external-import/",
+    "outputPath": "/lint/rules/no-external-import/index.html",
+    "sourcePath": "/lint/lint_rule[4].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-no-children-prop/",
+    "outputPath": "/lint/rules/jsx-no-children-prop/index.html",
+    "sourcePath": "/lint/lint_rule[5].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-class-assign/",
+    "outputPath": "/lint/rules/no-class-assign/index.html",
+    "sourcePath": "/lint/lint_rule[6].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-case-declarations/",
+    "outputPath": "/lint/rules/no-case-declarations/index.html",
+    "sourcePath": "/lint/lint_rule[7].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-extra-boolean-cast/",
+    "outputPath": "/lint/rules/no-extra-boolean-cast/index.html",
+    "sourcePath": "/lint/lint_rule[8].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-namespace/",
+    "outputPath": "/lint/rules/no-namespace/index.html",
+    "sourcePath": "/lint/lint_rule[9].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-misused-new/",
+    "outputPath": "/lint/rules/no-misused-new/index.html",
+    "sourcePath": "/lint/lint_rule[10].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-invalid-triple-slash-reference/",
+    "outputPath": "/lint/rules/no-invalid-triple-slash-reference/index.html",
+    "sourcePath": "/lint/lint_rule[11].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-delete-var/",
+    "outputPath": "/lint/rules/no-delete-var/index.html",
+    "sourcePath": "/lint/lint_rule[12].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/explicit-module-boundary-types/",
+    "outputPath": "/lint/rules/explicit-module-boundary-types/index.html",
+    "sourcePath": "/lint/lint_rule[13].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-boolean-value/",
+    "outputPath": "/lint/rules/jsx-boolean-value/index.html",
+    "sourcePath": "/lint/lint_rule[14].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-unknown-rule-code/",
+    "outputPath": "/lint/rules/ban-unknown-rule-code/index.html",
+    "sourcePath": "/lint/lint_rule[15].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-await-in-loop/",
+    "outputPath": "/lint/rules/no-await-in-loop/index.html",
+    "sourcePath": "/lint/lint_rule[16].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/guard-for-in/",
+    "outputPath": "/lint/rules/guard-for-in/index.html",
+    "sourcePath": "/lint/lint_rule[17].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/require-await/",
+    "outputPath": "/lint/rules/require-await/index.html",
+    "sourcePath": "/lint/lint_rule[18].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-key/",
+    "outputPath": "/lint/rules/jsx-key/index.html",
+    "sourcePath": "/lint/lint_rule[19].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-ts-comment/",
+    "outputPath": "/lint/rules/ban-ts-comment/index.html",
+    "sourcePath": "/lint/lint_rule[20].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-this-alias/",
+    "outputPath": "/lint/rules/no-this-alias/index.html",
+    "sourcePath": "/lint/lint_rule[21].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-process-global/",
+    "outputPath": "/lint/rules/no-process-global/index.html",
+    "sourcePath": "/lint/lint_rule[22].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-setter-return/",
+    "outputPath": "/lint/rules/no-setter-return/index.html",
+    "sourcePath": "/lint/lint_rule[23].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-duplicate-case/",
+    "outputPath": "/lint/rules/no-duplicate-case/index.html",
+    "sourcePath": "/lint/lint_rule[24].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-console/",
+    "outputPath": "/lint/rules/no-console/index.html",
+    "sourcePath": "/lint/lint_rule[25].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-func-assign/",
+    "outputPath": "/lint/rules/no-func-assign/index.html",
+    "sourcePath": "/lint/lint_rule[26].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/prefer-ascii/",
+    "outputPath": "/lint/rules/prefer-ascii/index.html",
+    "sourcePath": "/lint/lint_rule[27].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-dupe-class-members/",
+    "outputPath": "/lint/rules/no-dupe-class-members/index.html",
+    "sourcePath": "/lint/lint_rule[28].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-self-assign/",
+    "outputPath": "/lint/rules/no-self-assign/index.html",
+    "sourcePath": "/lint/lint_rule[29].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/fresh-server-event-handlers/",
+    "outputPath": "/lint/rules/fresh-server-event-handlers/index.html",
+    "sourcePath": "/lint/lint_rule[30].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-empty-enum/",
+    "outputPath": "/lint/rules/no-empty-enum/index.html",
+    "sourcePath": "/lint/lint_rule[31].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unused-vars/",
+    "outputPath": "/lint/rules/no-unused-vars/index.html",
+    "sourcePath": "/lint/lint_rule[32].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-explicit-any/",
+    "outputPath": "/lint/rules/no-explicit-any/index.html",
+    "sourcePath": "/lint/lint_rule[33].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-constant-condition/",
+    "outputPath": "/lint/rules/no-constant-condition/index.html",
+    "sourcePath": "/lint/lint_rule[34].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-undef/",
+    "outputPath": "/lint/rules/no-undef/index.html",
+    "sourcePath": "/lint/lint_rule[35].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/valid-typeof/",
+    "outputPath": "/lint/rules/valid-typeof/index.html",
+    "sourcePath": "/lint/lint_rule[36].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-irregular-whitespace/",
+    "outputPath": "/lint/rules/no-irregular-whitespace/index.html",
+    "sourcePath": "/lint/lint_rule[37].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-const-assign/",
+    "outputPath": "/lint/rules/no-const-assign/index.html",
+    "sourcePath": "/lint/lint_rule[38].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-self-compare/",
+    "outputPath": "/lint/rules/no-self-compare/index.html",
+    "sourcePath": "/lint/lint_rule[39].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-no-comment-text-nodes/",
+    "outputPath": "/lint/rules/jsx-no-comment-text-nodes/index.html",
+    "sourcePath": "/lint/lint_rule[40].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-sloppy-imports/",
+    "outputPath": "/lint/rules/no-sloppy-imports/index.html",
+    "sourcePath": "/lint/lint_rule[41].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-throw-literal/",
+    "outputPath": "/lint/rules/no-throw-literal/index.html",
+    "sourcePath": "/lint/lint_rule[42].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-sync-fn-in-async-fn/",
+    "outputPath": "/lint/rules/no-sync-fn-in-async-fn/index.html",
+    "sourcePath": "/lint/lint_rule[43].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-invalid-regexp/",
+    "outputPath": "/lint/rules/no-invalid-regexp/index.html",
+    "sourcePath": "/lint/lint_rule[44].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-slow-types/",
+    "outputPath": "/lint/rules/no-slow-types/index.html",
+    "sourcePath": "/lint/lint_rule[45].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-cond-assign/",
+    "outputPath": "/lint/rules/no-cond-assign/index.html",
+    "sourcePath": "/lint/lint_rule[46].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/default-param-last/",
+    "outputPath": "/lint/rules/default-param-last/index.html",
+    "sourcePath": "/lint/lint_rule[47].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-node-globals/",
+    "outputPath": "/lint/rules/no-node-globals/index.html",
+    "sourcePath": "/lint/lint_rule[48].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-with/",
+    "outputPath": "/lint/rules/no-with/index.html",
+    "sourcePath": "/lint/lint_rule[49].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unsafe-negation/",
+    "outputPath": "/lint/rules/no-unsafe-negation/index.html",
+    "sourcePath": "/lint/lint_rule[50].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-void-dom-elements-no-children/",
+    "outputPath": "/lint/rules/jsx-void-dom-elements-no-children/index.html",
+    "sourcePath": "/lint/lint_rule[51].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-curly-braces/",
+    "outputPath": "/lint/rules/jsx-curly-braces/index.html",
+    "sourcePath": "/lint/lint_rule[52].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/prefer-const/",
+    "outputPath": "/lint/rules/prefer-const/index.html",
+    "sourcePath": "/lint/lint_rule[53].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-regex-spaces/",
+    "outputPath": "/lint/rules/no-regex-spaces/index.html",
+    "sourcePath": "/lint/lint_rule[54].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-control-regex/",
+    "outputPath": "/lint/rules/no-control-regex/index.html",
+    "sourcePath": "/lint/lint_rule[55].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-new-symbol/",
+    "outputPath": "/lint/rules/no-new-symbol/index.html",
+    "sourcePath": "/lint/lint_rule[56].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/react-no-danger/",
+    "outputPath": "/lint/rules/react-no-danger/index.html",
+    "sourcePath": "/lint/lint_rule[57].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-async-promise-executor/",
+    "outputPath": "/lint/rules/no-async-promise-executor/index.html",
+    "sourcePath": "/lint/lint_rule[58].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-empty-character-class/",
+    "outputPath": "/lint/rules/no-empty-character-class/index.html",
+    "sourcePath": "/lint/lint_rule[59].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-boolean-literal-for-arguments/",
+    "outputPath": "/lint/rules/no-boolean-literal-for-arguments/index.html",
+    "sourcePath": "/lint/lint_rule[60].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/prefer-as-const/",
+    "outputPath": "/lint/rules/prefer-as-const/index.html",
+    "sourcePath": "/lint/lint_rule[61].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-sparse-arrays/",
+    "outputPath": "/lint/rules/no-sparse-arrays/index.html",
+    "sourcePath": "/lint/lint_rule[62].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-array-constructor/",
+    "outputPath": "/lint/rules/no-array-constructor/index.html",
+    "sourcePath": "/lint/lint_rule[63].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-compare-neg-zero/",
+    "outputPath": "/lint/rules/no-compare-neg-zero/index.html",
+    "sourcePath": "/lint/lint_rule[64].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-deprecated-deno-api/",
+    "outputPath": "/lint/rules/no-deprecated-deno-api/index.html",
+    "sourcePath": "/lint/lint_rule[65].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unused-labels/",
+    "outputPath": "/lint/rules/no-unused-labels/index.html",
+    "sourcePath": "/lint/lint_rule[66].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-import-assertions/",
+    "outputPath": "/lint/rules/no-import-assertions/index.html",
+    "sourcePath": "/lint/lint_rule[67].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-import-prefix/",
+    "outputPath": "/lint/rules/no-import-prefix/index.html",
+    "sourcePath": "/lint/lint_rule[68].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unversioned-import/",
+    "outputPath": "/lint/rules/no-unversioned-import/index.html",
+    "sourcePath": "/lint/lint_rule[69].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-fallthrough/",
+    "outputPath": "/lint/rules/no-fallthrough/index.html",
+    "sourcePath": "/lint/lint_rule[70].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-dupe-keys/",
+    "outputPath": "/lint/rules/no-dupe-keys/index.html",
+    "sourcePath": "/lint/lint_rule[71].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-untagged-todo/",
+    "outputPath": "/lint/rules/ban-untagged-todo/index.html",
+    "sourcePath": "/lint/lint_rule[72].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-types/",
+    "outputPath": "/lint/rules/ban-types/index.html",
+    "sourcePath": "/lint/lint_rule[73].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/for-direction/",
+    "outputPath": "/lint/rules/for-direction/index.html",
+    "sourcePath": "/lint/lint_rule[74].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-window/",
+    "outputPath": "/lint/rules/no-window/index.html",
+    "sourcePath": "/lint/lint_rule[75].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-octal/",
+    "outputPath": "/lint/rules/no-octal/index.html",
+    "sourcePath": "/lint/lint_rule[76].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/require-yield/",
+    "outputPath": "/lint/rules/require-yield/index.html",
+    "sourcePath": "/lint/lint_rule[77].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-dupe-args/",
+    "outputPath": "/lint/rules/no-dupe-args/index.html",
+    "sourcePath": "/lint/lint_rule[78].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-redeclare/",
+    "outputPath": "/lint/rules/no-redeclare/index.html",
+    "sourcePath": "/lint/lint_rule[79].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/react-no-danger-with-children/",
+    "outputPath": "/lint/rules/react-no-danger-with-children/index.html",
+    "sourcePath": "/lint/lint_rule[80].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-obj-calls/",
+    "outputPath": "/lint/rules/no-obj-calls/index.html",
+    "sourcePath": "/lint/lint_rule[81].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-no-duplicate-props/",
+    "outputPath": "/lint/rules/jsx-no-duplicate-props/index.html",
+    "sourcePath": "/lint/lint_rule[82].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/constructor-super/",
+    "outputPath": "/lint/rules/constructor-super/index.html",
+    "sourcePath": "/lint/lint_rule[83].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-non-null-asserted-optional-chain/",
+    "outputPath": "/lint/rules/no-non-null-asserted-optional-chain/index.html",
+    "sourcePath": "/lint/lint_rule[84].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-no-useless-fragment/",
+    "outputPath": "/lint/rules/jsx-no-useless-fragment/index.html",
+    "sourcePath": "/lint/lint_rule[85].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-debugger/",
+    "outputPath": "/lint/rules/no-debugger/index.html",
+    "sourcePath": "/lint/lint_rule[86].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-unused-ignore/",
+    "outputPath": "/lint/rules/ban-unused-ignore/index.html",
+    "sourcePath": "/lint/lint_rule[87].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-await-in-sync-fn/",
+    "outputPath": "/lint/rules/no-await-in-sync-fn/index.html",
+    "sourcePath": "/lint/lint_rule[88].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-extra-non-null-assertion/",
+    "outputPath": "/lint/rules/no-extra-non-null-assertion/index.html",
+    "sourcePath": "/lint/lint_rule[89].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/adjacent-overload-signatures/",
+    "outputPath": "/lint/rules/adjacent-overload-signatures/index.html",
+    "sourcePath": "/lint/lint_rule[90].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/single-var-declarator/",
+    "outputPath": "/lint/rules/single-var-declarator/index.html",
+    "sourcePath": "/lint/lint_rule[91].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/eqeqeq/",
+    "outputPath": "/lint/rules/eqeqeq/index.html",
+    "sourcePath": "/lint/lint_rule[92].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/react-rules-of-hooks/",
+    "outputPath": "/lint/rules/react-rules-of-hooks/index.html",
+    "sourcePath": "/lint/lint_rule[93].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-empty-pattern/",
+    "outputPath": "/lint/rules/no-empty-pattern/index.html",
+    "sourcePath": "/lint/lint_rule[94].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/verbatim-module-syntax/",
+    "outputPath": "/lint/rules/verbatim-module-syntax/index.html",
+    "sourcePath": "/lint/lint_rule[95].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-props-no-spread-multi/",
+    "outputPath": "/lint/rules/jsx-props-no-spread-multi/index.html",
+    "sourcePath": "/lint/lint_rule[96].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-implicit-declare-namespace-export/",
+    "outputPath": "/lint/rules/no-implicit-declare-namespace-export/index.html",
+    "sourcePath": "/lint/lint_rule[97].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unsafe-finally/",
+    "outputPath": "/lint/rules/no-unsafe-finally/index.html",
+    "sourcePath": "/lint/lint_rule[98].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-button-has-type/",
+    "outputPath": "/lint/rules/jsx-button-has-type/index.html",
+    "sourcePath": "/lint/lint_rule[99].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-window-prefix/",
+    "outputPath": "/lint/rules/no-window-prefix/index.html",
+    "sourcePath": "/lint/lint_rule[100].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-shadow-restricted-names/",
+    "outputPath": "/lint/rules/no-shadow-restricted-names/index.html",
+    "sourcePath": "/lint/lint_rule[101].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-import-assign/",
+    "outputPath": "/lint/rules/no-import-assign/index.html",
+    "sourcePath": "/lint/lint_rule[102].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-prototype-builtins/",
+    "outputPath": "/lint/rules/no-prototype-builtins/index.html",
+    "sourcePath": "/lint/lint_rule[103].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-empty-interface/",
+    "outputPath": "/lint/rules/no-empty-interface/index.html",
+    "sourcePath": "/lint/lint_rule[104].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/use-isnan/",
+    "outputPath": "/lint/rules/use-isnan/index.html",
+    "sourcePath": "/lint/lint_rule[105].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-unreachable/",
+    "outputPath": "/lint/rules/no-unreachable/index.html",
+    "sourcePath": "/lint/lint_rule[106].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/fresh-handler-export/",
+    "outputPath": "/lint/rules/fresh-handler-export/index.html",
+    "sourcePath": "/lint/lint_rule[107].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-eval/",
+    "outputPath": "/lint/rules/no-eval/index.html",
+    "sourcePath": "/lint/lint_rule[108].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-dupe-else-if/",
+    "outputPath": "/lint/rules/no-dupe-else-if/index.html",
+    "sourcePath": "/lint/lint_rule[109].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/triple-slash-reference/",
+    "outputPath": "/lint/rules/triple-slash-reference/index.html",
+    "sourcePath": "/lint/lint_rule[110].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/getter-return/",
+    "outputPath": "/lint/rules/getter-return/index.html",
+    "sourcePath": "/lint/lint_rule[111].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-var/",
+    "outputPath": "/lint/rules/no-var/index.html",
+    "sourcePath": "/lint/lint_rule[112].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-global-assign/",
+    "outputPath": "/lint/rules/no-global-assign/index.html",
+    "sourcePath": "/lint/lint_rule[113].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-empty/",
+    "outputPath": "/lint/rules/no-empty/index.html",
+    "sourcePath": "/lint/lint_rule[114].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-inner-declarations/",
+    "outputPath": "/lint/rules/no-inner-declarations/index.html",
+    "sourcePath": "/lint/lint_rule[115].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/ban-untagged-ignore/",
+    "outputPath": "/lint/rules/ban-untagged-ignore/index.html",
+    "sourcePath": "/lint/lint_rule[116].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-top-level-await/",
+    "outputPath": "/lint/rules/no-top-level-await/index.html",
+    "sourcePath": "/lint/lint_rule[117].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-this-before-super/",
+    "outputPath": "/lint/rules/no-this-before-super/index.html",
+    "sourcePath": "/lint/lint_rule[118].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-useless-rename/",
+    "outputPath": "/lint/rules/no-useless-rename/index.html",
+    "sourcePath": "/lint/lint_rule[119].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/jsx-no-unescaped-entities/",
+    "outputPath": "/lint/rules/jsx-no-unescaped-entities/index.html",
+    "sourcePath": "/lint/lint_rule[120].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/prefer-primordials/",
+    "outputPath": "/lint/rules/prefer-primordials/index.html",
+    "sourcePath": "/lint/lint_rule[121].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-ex-assign/",
+    "outputPath": "/lint/rules/no-ex-assign/index.html",
+    "sourcePath": "/lint/lint_rule[122].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/lint/rules/no-inferrable-types/",
+    "outputPath": "/lint/rules/no-inferrable-types/index.html",
+    "sourcePath": "/lint/lint_rule[123].page.tsx",
+    "layout": "lintRule.tsx",
+    "kind": "generated-lint-rule"
+  },
+  {
+    "url": "/examples/",
+    "outputPath": "/examples/index.html",
+    "sourcePath": "/examples/index[0].page.tsx",
+    "layout": "raw.tsx",
+    "kind": "generated-examples-index"
+  },
+  {
+    "url": "/examples/convert_string/",
+    "outputPath": "/examples/convert_string/index.html",
+    "sourcePath": "/examples/index.examples[0].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/mcp_server/",
+    "outputPath": "/examples/mcp_server/index.html",
+    "sourcePath": "/examples/index.examples[1].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/importing_bytes/",
+    "outputPath": "/examples/importing_bytes/index.html",
+    "sourcePath": "/examples/index.examples[2].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hash_file_streams/",
+    "outputPath": "/examples/hash_file_streams/index.html",
+    "sourcePath": "/examples/index.examples[3].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hard_links/",
+    "outputPath": "/examples/hard_links/index.html",
+    "sourcePath": "/examples/index.examples[4].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/performance_timing/",
+    "outputPath": "/examples/performance_timing/index.html",
+    "sourcePath": "/examples/index.examples[5].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/mongo/",
+    "outputPath": "/examples/mongo/index.html",
+    "sourcePath": "/examples/index.examples[6].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/udp_connector/",
+    "outputPath": "/examples/udp_connector/index.html",
+    "sourcePath": "/examples/index.examples[7].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/anthropic_rag/",
+    "outputPath": "/examples/anthropic_rag/index.html",
+    "sourcePath": "/examples/index.examples[8].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/send_email/",
+    "outputPath": "/examples/send_email/index.html",
+    "sourcePath": "/examples/index.examples[9].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/checking_directory_existence/",
+    "outputPath": "/examples/checking_directory_existence/index.html",
+    "sourcePath": "/examples/index.examples[10].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/sandbox_evaluating_javascript/",
+    "outputPath": "/examples/sandbox_evaluating_javascript/index.html",
+    "sourcePath": "/examples/index.examples[11].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/mime_type/",
+    "outputPath": "/examples/mime_type/index.html",
+    "sourcePath": "/examples/index.examples[12].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/subprocesses_output/",
+    "outputPath": "/examples/subprocesses_output/index.html",
+    "sourcePath": "/examples/index.examples[13].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/checking_file_existence/",
+    "outputPath": "/examples/checking_file_existence/index.html",
+    "sourcePath": "/examples/index.examples[14].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/os_info/",
+    "outputPath": "/examples/os_info/index.html",
+    "sourcePath": "/examples/index.examples[15].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/unix_cat/",
+    "outputPath": "/examples/unix_cat/index.html",
+    "sourcePath": "/examples/index.examples[16].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_requests/",
+    "outputPath": "/examples/http_requests/index.html",
+    "sourcePath": "/examples/index.examples[17].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_webhooks/",
+    "outputPath": "/examples/http_server_webhooks/index.html",
+    "sourcePath": "/examples/index.examples[18].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/progress_spinners/",
+    "outputPath": "/examples/progress_spinners/index.html",
+    "sourcePath": "/examples/index.examples[19].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/anthropic_tool_use/",
+    "outputPath": "/examples/anthropic_tool_use/index.html",
+    "sourcePath": "/examples/index.examples[20].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/truncate_file/",
+    "outputPath": "/examples/truncate_file/index.html",
+    "sourcePath": "/examples/index.examples[21].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/write_file_incremental/",
+    "outputPath": "/examples/write_file_incremental/index.html",
+    "sourcePath": "/examples/index.examples[22].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/s3_upload/",
+    "outputPath": "/examples/s3_upload/index.html",
+    "sourcePath": "/examples/index.examples[23].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_graceful_shutdown/",
+    "outputPath": "/examples/http_server_graceful_shutdown/index.html",
+    "sourcePath": "/examples/index.examples[24].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/quic/",
+    "outputPath": "/examples/quic/index.html",
+    "sourcePath": "/examples/index.examples[25].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/symlinks/",
+    "outputPath": "/examples/symlinks/index.html",
+    "sourcePath": "/examples/index.examples[26].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/zlib_compression/",
+    "outputPath": "/examples/zlib_compression/index.html",
+    "sourcePath": "/examples/index.examples[27].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_uint8array/",
+    "outputPath": "/examples/convert_uint8array/index.html",
+    "sourcePath": "/examples/index.examples[28].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_proxy/",
+    "outputPath": "/examples/http_proxy/index.html",
+    "sourcePath": "/examples/index.examples[29].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/dns_queries/",
+    "outputPath": "/examples/dns_queries/index.html",
+    "sourcePath": "/examples/index.examples[30].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hono/",
+    "outputPath": "/examples/hono/index.html",
+    "sourcePath": "/examples/index.examples[31].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/terminal_detection/",
+    "outputPath": "/examples/terminal_detection/index.html",
+    "sourcePath": "/examples/index.examples[32].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_hot_reload/",
+    "outputPath": "/examples/http_server_hot_reload/index.html",
+    "sourcePath": "/examples/index.examples[33].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/file_url_path/",
+    "outputPath": "/examples/file_url_path/index.html",
+    "sourcePath": "/examples/index.examples[34].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tests_skip_focus/",
+    "outputPath": "/examples/tests_skip_focus/index.html",
+    "sourcePath": "/examples/index.examples[35].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/fetch_unix_socket/",
+    "outputPath": "/examples/fetch_unix_socket/index.html",
+    "sourcePath": "/examples/index.examples[36].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/file_metadata/",
+    "outputPath": "/examples/file_metadata/index.html",
+    "sourcePath": "/examples/index.examples[37].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_request_timeouts/",
+    "outputPath": "/examples/http_server_request_timeouts/index.html",
+    "sourcePath": "/examples/index.examples[38].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/broadcast_channel/",
+    "outputPath": "/examples/broadcast_channel/index.html",
+    "sourcePath": "/examples/index.examples[39].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_tls/",
+    "outputPath": "/examples/http_server_tls/index.html",
+    "sourcePath": "/examples/index.examples[40].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_structured_output/",
+    "outputPath": "/examples/openai_structured_output/index.html",
+    "sourcePath": "/examples/index.examples[41].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tcp_connector/",
+    "outputPath": "/examples/tcp_connector/index.html",
+    "sourcePath": "/examples/index.examples[42].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/subprocess_stdin/",
+    "outputPath": "/examples/subprocess_stdin/index.html",
+    "sourcePath": "/examples/index.examples[43].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/intl_relative_time/",
+    "outputPath": "/examples/intl_relative_time/index.html",
+    "sourcePath": "/examples/index.examples[44].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/fetch_timeout/",
+    "outputPath": "/examples/fetch_timeout/index.html",
+    "sourcePath": "/examples/index.examples[45].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/intl_segmenter/",
+    "outputPath": "/examples/intl_segmenter/index.html",
+    "sourcePath": "/examples/index.examples[46].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_static_caching/",
+    "outputPath": "/examples/http_server_static_caching/index.html",
+    "sourcePath": "/examples/index.examples[47].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_websocket/",
+    "outputPath": "/examples/http_server_websocket/index.html",
+    "sourcePath": "/examples/index.examples[48].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/spy_functions/",
+    "outputPath": "/examples/spy_functions/index.html",
+    "sourcePath": "/examples/index.examples[49].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/udp_listener/",
+    "outputPath": "/examples/udp_listener/index.html",
+    "sourcePath": "/examples/index.examples[50].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/kv_transactions/",
+    "outputPath": "/examples/kv_transactions/index.html",
+    "sourcePath": "/examples/index.examples[51].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/importing_json/",
+    "outputPath": "/examples/importing_json/index.html",
+    "sourcePath": "/examples/index.examples[52].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/webassembly/",
+    "outputPath": "/examples/webassembly/index.html",
+    "sourcePath": "/examples/index.examples[53].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/duckdb/",
+    "outputPath": "/examples/duckdb/index.html",
+    "sourcePath": "/examples/index.examples[54].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_streaming/",
+    "outputPath": "/examples/http_server_streaming/index.html",
+    "sourcePath": "/examples/index.examples[55].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/cron/",
+    "outputPath": "/examples/cron/index.html",
+    "sourcePath": "/examples/index.examples[56].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_rss/",
+    "outputPath": "/examples/http_server_rss/index.html",
+    "sourcePath": "/examples/index.examples[57].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/heap_snapshot/",
+    "outputPath": "/examples/heap_snapshot/index.html",
+    "sourcePath": "/examples/index.examples[58].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/intl_number_format/",
+    "outputPath": "/examples/intl_number_format/index.html",
+    "sourcePath": "/examples/index.examples[59].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/format_bytes_duration/",
+    "outputPath": "/examples/format_bytes_duration/index.html",
+    "sourcePath": "/examples/index.examples[60].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/authjs_github/",
+    "outputPath": "/examples/authjs_github/index.html",
+    "sourcePath": "/examples/index.examples[61].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/node_crypto/",
+    "outputPath": "/examples/node_crypto/index.html",
+    "sourcePath": "/examples/index.examples[62].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hash_password/",
+    "outputPath": "/examples/hash_password/index.html",
+    "sourcePath": "/examples/index.examples[63].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/web_workers/",
+    "outputPath": "/examples/web_workers/index.html",
+    "sourcePath": "/examples/index.examples[64].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/event_emitter/",
+    "outputPath": "/examples/event_emitter/index.html",
+    "sourcePath": "/examples/index.examples[65].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_sse/",
+    "outputPath": "/examples/http_server_sse/index.html",
+    "sourcePath": "/examples/index.examples[66].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/environment_variables/",
+    "outputPath": "/examples/environment_variables/index.html",
+    "sourcePath": "/examples/index.examples[67].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/reading_system_metrics/",
+    "outputPath": "/examples/reading_system_metrics/index.html",
+    "sourcePath": "/examples/index.examples[68].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tls_listener/",
+    "outputPath": "/examples/tls_listener/index.html",
+    "sourcePath": "/examples/index.examples[69].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/subprocesses_spawn/",
+    "outputPath": "/examples/subprocesses_spawn/index.html",
+    "sourcePath": "/examples/index.examples[70].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_parallel/",
+    "outputPath": "/examples/http_server_parallel/index.html",
+    "sourcePath": "/examples/index.examples[71].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/find_executable/",
+    "outputPath": "/examples/find_executable/index.html",
+    "sourcePath": "/examples/index.examples[72].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/semver_versions/",
+    "outputPath": "/examples/semver_versions/index.html",
+    "sourcePath": "/examples/index.examples[73].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/cli_subcommands/",
+    "outputPath": "/examples/cli_subcommands/index.html",
+    "sourcePath": "/examples/index.examples[74].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/writing_tests/",
+    "outputPath": "/examples/writing_tests/index.html",
+    "sourcePath": "/examples/index.examples[75].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parse_xml/",
+    "outputPath": "/examples/parse_xml/index.html",
+    "sourcePath": "/examples/index.examples[76].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/promise_timeout/",
+    "outputPath": "/examples/promise_timeout/index.html",
+    "sourcePath": "/examples/index.examples[77].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_rate_limit/",
+    "outputPath": "/examples/http_server_rate_limit/index.html",
+    "sourcePath": "/examples/index.examples[78].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_serializing_csv/",
+    "outputPath": "/examples/parsing_serializing_csv/index.html",
+    "sourcePath": "/examples/index.examples[79].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_node_readable/",
+    "outputPath": "/examples/convert_node_readable/index.html",
+    "sourcePath": "/examples/index.examples[80].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_basic_auth/",
+    "outputPath": "/examples/http_server_basic_auth/index.html",
+    "sourcePath": "/examples/index.examples[81].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hashing/",
+    "outputPath": "/examples/hashing/index.html",
+    "sourcePath": "/examples/index.examples[82].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/kv/",
+    "outputPath": "/examples/kv/index.html",
+    "sourcePath": "/examples/index.examples[83].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/redis/",
+    "outputPath": "/examples/redis/index.html",
+    "sourcePath": "/examples/index.examples[84].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/write_stdout/",
+    "outputPath": "/examples/write_stdout/index.html",
+    "sourcePath": "/examples/index.examples[85].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/byte_manipulation/",
+    "outputPath": "/examples/byte_manipulation/index.html",
+    "sourcePath": "/examples/index.examples[86].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/node_built_in/",
+    "outputPath": "/examples/node_built_in/index.html",
+    "sourcePath": "/examples/index.examples[87].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/temporary_files/",
+    "outputPath": "/examples/temporary_files/index.html",
+    "sourcePath": "/examples/index.examples[88].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/worker_threads/",
+    "outputPath": "/examples/worker_threads/index.html",
+    "sourcePath": "/examples/index.examples[89].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/prompts/",
+    "outputPath": "/examples/prompts/index.html",
+    "sourcePath": "/examples/index.examples[90].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/form_data/",
+    "outputPath": "/examples/form_data/index.html",
+    "sourcePath": "/examples/index.examples[91].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_sessions/",
+    "outputPath": "/examples/http_server_sessions/index.html",
+    "sourcePath": "/examples/index.examples[92].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/permissions/",
+    "outputPath": "/examples/permissions/index.html",
+    "sourcePath": "/examples/index.examples[93].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/anthropic_chat_completion/",
+    "outputPath": "/examples/anthropic_chat_completion/index.html",
+    "sourcePath": "/examples/index.examples[94].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tcp_listener/",
+    "outputPath": "/examples/tcp_listener/index.html",
+    "sourcePath": "/examples/index.examples[95].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/kv_watch/",
+    "outputPath": "/examples/kv_watch/index.html",
+    "sourcePath": "/examples/index.examples[96].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/rsa_signature/",
+    "outputPath": "/examples/rsa_signature/index.html",
+    "sourcePath": "/examples/index.examples[97].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/color_logging/",
+    "outputPath": "/examples/color_logging/index.html",
+    "sourcePath": "/examples/index.examples[98].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_cors/",
+    "outputPath": "/examples/http_server_cors/index.html",
+    "sourcePath": "/examples/index.examples[99].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/network_interfaces/",
+    "outputPath": "/examples/network_interfaces/index.html",
+    "sourcePath": "/examples/index.examples[100].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/sss/",
+    "outputPath": "/examples/sss/index.html",
+    "sourcePath": "/examples/index.examples[101].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/ffi/",
+    "outputPath": "/examples/ffi/index.html",
+    "sourcePath": "/examples/index.examples[102].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/csv_streaming/",
+    "outputPath": "/examples/csv_streaming/index.html",
+    "sourcePath": "/examples/index.examples[103].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tls_connector/",
+    "outputPath": "/examples/tls_connector/index.html",
+    "sourcePath": "/examples/index.examples[104].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/websocket_pubsub/",
+    "outputPath": "/examples/websocket_pubsub/index.html",
+    "sourcePath": "/examples/index.examples[105].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/front_matter/",
+    "outputPath": "/examples/front_matter/index.html",
+    "sourcePath": "/examples/index.examples[106].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_blob/",
+    "outputPath": "/examples/convert_blob/index.html",
+    "sourcePath": "/examples/index.examples[107].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/web_cache_api/",
+    "outputPath": "/examples/web_cache_api/index.html",
+    "sourcePath": "/examples/index.examples[108].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/html_templating/",
+    "outputPath": "/examples/html_templating/index.html",
+    "sourcePath": "/examples/index.examples[109].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/concurrency_limit/",
+    "outputPath": "/examples/concurrency_limit/index.html",
+    "sourcePath": "/examples/index.examples[110].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/oauth_github/",
+    "outputPath": "/examples/oauth_github/index.html",
+    "sourcePath": "/examples/index.examples[111].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/generate_pdf/",
+    "outputPath": "/examples/generate_pdf/index.html",
+    "sourcePath": "/examples/index.examples[112].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/extract_html_data/",
+    "outputPath": "/examples/extract_html_data/index.html",
+    "sourcePath": "/examples/index.examples[113].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/streaming_files/",
+    "outputPath": "/examples/streaming_files/index.html",
+    "sourcePath": "/examples/index.examples[114].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/render_markdown/",
+    "outputPath": "/examples/render_markdown/index.html",
+    "sourcePath": "/examples/index.examples[115].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/piping_streams/",
+    "outputPath": "/examples/piping_streams/index.html",
+    "sourcePath": "/examples/index.examples[116].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/create_remove_directories/",
+    "outputPath": "/examples/create_remove_directories/index.html",
+    "sourcePath": "/examples/index.examples[117].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/copy_file/",
+    "outputPath": "/examples/copy_file/index.html",
+    "sourcePath": "/examples/index.examples[118].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/find_free_port/",
+    "outputPath": "/examples/find_free_port/index.html",
+    "sourcePath": "/examples/index.examples[119].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deep_equal/",
+    "outputPath": "/examples/deep_equal/index.html",
+    "sourcePath": "/examples/index.examples[120].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deno_version/",
+    "outputPath": "/examples/deno_version/index.html",
+    "sourcePath": "/examples/index.examples[121].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_oak_crud_middleware_with_sqlite3_db/",
+    "outputPath": "/examples/http_server_oak_crud_middleware_with_sqlite3_db/index.html",
+    "sourcePath": "/examples/index.examples[122].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/ulid/",
+    "outputPath": "/examples/ulid/index.html",
+    "sourcePath": "/examples/index.examples[123].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/seeded_random/",
+    "outputPath": "/examples/seeded_random/index.html",
+    "sourcePath": "/examples/index.examples[124].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deleting_files/",
+    "outputPath": "/examples/deleting_files/index.html",
+    "sourcePath": "/examples/index.examples[125].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/date_format_parse/",
+    "outputPath": "/examples/date_format_parse/index.html",
+    "sourcePath": "/examples/index.examples[126].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_sitemap/",
+    "outputPath": "/examples/http_server_sitemap/index.html",
+    "sourcePath": "/examples/index.examples[127].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/supabase/",
+    "outputPath": "/examples/supabase/index.html",
+    "sourcePath": "/examples/index.examples[128].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/os_signals/",
+    "outputPath": "/examples/os_signals/index.html",
+    "sourcePath": "/examples/index.examples[129].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/command_line_arguments/",
+    "outputPath": "/examples/command_line_arguments/index.html",
+    "sourcePath": "/examples/index.examples[130].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_serializing_yaml/",
+    "outputPath": "/examples/parsing_serializing_yaml/index.html",
+    "sourcePath": "/examples/index.examples[131].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deno_bundle/",
+    "outputPath": "/examples/deno_bundle/index.html",
+    "sourcePath": "/examples/index.examples[132].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/web_transport/",
+    "outputPath": "/examples/web_transport/index.html",
+    "sourcePath": "/examples/index.examples[133].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/glob_patterns/",
+    "outputPath": "/examples/glob_patterns/index.html",
+    "sourcePath": "/examples/index.examples[134].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_tool_use/",
+    "outputPath": "/examples/openai_tool_use/index.html",
+    "sourcePath": "/examples/index.examples[135].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/child_process_ipc/",
+    "outputPath": "/examples/child_process_ipc/index.html",
+    "sourcePath": "/examples/index.examples[136].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/send_email_sendgrid/",
+    "outputPath": "/examples/send_email_sendgrid/index.html",
+    "sourcePath": "/examples/index.examples[137].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/msgpack_encoding/",
+    "outputPath": "/examples/msgpack_encoding/index.html",
+    "sourcePath": "/examples/index.examples[138].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_readablestream/",
+    "outputPath": "/examples/convert_readablestream/index.html",
+    "sourcePath": "/examples/index.examples[139].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/escape_html/",
+    "outputPath": "/examples/escape_html/index.html",
+    "sourcePath": "/examples/index.examples[140].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/fetch_http_proxy/",
+    "outputPath": "/examples/fetch_http_proxy/index.html",
+    "sourcePath": "/examples/index.examples[141].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/import_export/",
+    "outputPath": "/examples/import_export/index.html",
+    "sourcePath": "/examples/index.examples[142].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/intl_date_format/",
+    "outputPath": "/examples/intl_date_format/index.html",
+    "sourcePath": "/examples/index.examples[143].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/typescript_support/",
+    "outputPath": "/examples/typescript_support/index.html",
+    "sourcePath": "/examples/index.examples[144].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/derive_aes_key/",
+    "outputPath": "/examples/derive_aes_key/index.html",
+    "sourcePath": "/examples/index.examples[145].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_streaming/",
+    "outputPath": "/examples/openai_streaming/index.html",
+    "sourcePath": "/examples/index.examples[146].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/path_operations/",
+    "outputPath": "/examples/path_operations/index.html",
+    "sourcePath": "/examples/index.examples[147].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/worker_pool/",
+    "outputPath": "/examples/worker_pool/index.html",
+    "sourcePath": "/examples/index.examples[148].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/postgres/",
+    "outputPath": "/examples/postgres/index.html",
+    "sourcePath": "/examples/index.examples[149].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/websocket/",
+    "outputPath": "/examples/websocket/index.html",
+    "sourcePath": "/examples/index.examples[150].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/websocket_stream/",
+    "outputPath": "/examples/websocket_stream/index.html",
+    "sourcePath": "/examples/index.examples[151].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/node_readline/",
+    "outputPath": "/examples/node_readline/index.html",
+    "sourcePath": "/examples/index.examples[152].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_chat_completion/",
+    "outputPath": "/examples/openai_chat_completion/index.html",
+    "sourcePath": "/examples/index.examples[153].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tar_archives/",
+    "outputPath": "/examples/tar_archives/index.html",
+    "sourcePath": "/examples/index.examples[154].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_files/",
+    "outputPath": "/examples/http_server_files/index.html",
+    "sourcePath": "/examples/index.examples[155].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_jsonc/",
+    "outputPath": "/examples/parsing_jsonc/index.html",
+    "sourcePath": "/examples/index.examples[156].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/stripe_checkout/",
+    "outputPath": "/examples/stripe_checkout/index.html",
+    "sourcePath": "/examples/index.examples[157].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/writing_files/",
+    "outputPath": "/examples/writing_files/index.html",
+    "sourcePath": "/examples/index.examples[158].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/sleep_delay/",
+    "outputPath": "/examples/sleep_delay/index.html",
+    "sourcePath": "/examples/index.examples[159].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/string_case/",
+    "outputPath": "/examples/string_case/index.html",
+    "sourcePath": "/examples/index.examples[160].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/debounce_function/",
+    "outputPath": "/examples/debounce_function/index.html",
+    "sourcePath": "/examples/index.examples[161].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/anthropic_structured_output/",
+    "outputPath": "/examples/anthropic_structured_output/index.html",
+    "sourcePath": "/examples/index.examples[162].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/websocket_context/",
+    "outputPath": "/examples/websocket_context/index.html",
+    "sourcePath": "/examples/index.examples[163].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/memoize_function/",
+    "outputPath": "/examples/memoize_function/index.html",
+    "sourcePath": "/examples/index.examples[164].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/generate_qr_code/",
+    "outputPath": "/examples/generate_qr_code/index.html",
+    "sourcePath": "/examples/index.examples[165].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deno_compile/",
+    "outputPath": "/examples/deno_compile/index.html",
+    "sourcePath": "/examples/index.examples[166].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/timers/",
+    "outputPath": "/examples/timers/index.html",
+    "sourcePath": "/examples/index.examples[167].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hex_base64_encoding/",
+    "outputPath": "/examples/hex_base64_encoding/index.html",
+    "sourcePath": "/examples/index.examples[168].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/walking_directories/",
+    "outputPath": "/examples/walking_directories/index.html",
+    "sourcePath": "/examples/index.examples[169].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/sandbox_for_untrusted_code/",
+    "outputPath": "/examples/sandbox_for_untrusted_code/index.html",
+    "sourcePath": "/examples/index.examples[170].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/queues/",
+    "outputPath": "/examples/queues/index.html",
+    "sourcePath": "/examples/index.examples[171].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/creating_and_verifying_jwt/",
+    "outputPath": "/examples/creating_and_verifying_jwt/index.html",
+    "sourcePath": "/examples/index.examples[172].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_serializing_json/",
+    "outputPath": "/examples/parsing_serializing_json/index.html",
+    "sourcePath": "/examples/index.examples[173].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_arraybuffer/",
+    "outputPath": "/examples/convert_arraybuffer/index.html",
+    "sourcePath": "/examples/index.examples[174].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/importing_text/",
+    "outputPath": "/examples/importing_text/index.html",
+    "sourcePath": "/examples/index.examples[175].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/compress_decompress/",
+    "outputPath": "/examples/compress_decompress/index.html",
+    "sourcePath": "/examples/index.examples[176].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_pagination/",
+    "outputPath": "/examples/http_server_pagination/index.html",
+    "sourcePath": "/examples/index.examples[177].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/file_locking/",
+    "outputPath": "/examples/file_locking/index.html",
+    "sourcePath": "/examples/index.examples[178].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/reading_files/",
+    "outputPath": "/examples/reading_files/index.html",
+    "sourcePath": "/examples/index.examples[179].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_node_streams/",
+    "outputPath": "/examples/http_server_node_streams/index.html",
+    "sourcePath": "/examples/index.examples[180].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/better_auth/",
+    "outputPath": "/examples/better_auth/index.html",
+    "sourcePath": "/examples/index.examples[181].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/json_lines/",
+    "outputPath": "/examples/json_lines/index.html",
+    "sourcePath": "/examples/index.examples[182].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tcp_echo_server/",
+    "outputPath": "/examples/tcp_echo_server/index.html",
+    "sourcePath": "/examples/index.examples[183].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/tests_run_control/",
+    "outputPath": "/examples/tests_run_control/index.html",
+    "sourcePath": "/examples/index.examples[184].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hello_world/",
+    "outputPath": "/examples/hello_world/index.html",
+    "sourcePath": "/examples/index.examples[185].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_rag/",
+    "outputPath": "/examples/openai_rag/index.html",
+    "sourcePath": "/examples/index.examples[186].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/data_processing/",
+    "outputPath": "/examples/data_processing/index.html",
+    "sourcePath": "/examples/index.examples[187].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/ecdsa_signing/",
+    "outputPath": "/examples/ecdsa_signing/index.html",
+    "sourcePath": "/examples/index.examples[188].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/uuids/",
+    "outputPath": "/examples/uuids/index.html",
+    "sourcePath": "/examples/index.examples[189].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/ansi_terminal/",
+    "outputPath": "/examples/ansi_terminal/index.html",
+    "sourcePath": "/examples/index.examples[190].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_routing/",
+    "outputPath": "/examples/http_server_routing/index.html",
+    "sourcePath": "/examples/index.examples[191].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_health_checks/",
+    "outputPath": "/examples/http_server_health_checks/index.html",
+    "sourcePath": "/examples/index.examples[192].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/starttls/",
+    "outputPath": "/examples/starttls/index.html",
+    "sourcePath": "/examples/index.examples[193].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/regexp_escape/",
+    "outputPath": "/examples/regexp_escape/index.html",
+    "sourcePath": "/examples/index.examples[194].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/npm/",
+    "outputPath": "/examples/npm/index.html",
+    "sourcePath": "/examples/index.examples[195].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_serializing_toml/",
+    "outputPath": "/examples/parsing_serializing_toml/index.html",
+    "sourcePath": "/examples/index.examples[196].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/parsing_serializing_ini/",
+    "outputPath": "/examples/parsing_serializing_ini/index.html",
+    "sourcePath": "/examples/index.examples[197].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/mcp_client/",
+    "outputPath": "/examples/mcp_client/index.html",
+    "sourcePath": "/examples/index.examples[198].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/convert_buffer/",
+    "outputPath": "/examples/convert_buffer/index.html",
+    "sourcePath": "/examples/index.examples[199].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/transform_stream/",
+    "outputPath": "/examples/transform_stream/index.html",
+    "sourcePath": "/examples/index.examples[200].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/structured_logging/",
+    "outputPath": "/examples/structured_logging/index.html",
+    "sourcePath": "/examples/index.examples[201].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/exponential_backoff/",
+    "outputPath": "/examples/exponential_backoff/index.html",
+    "sourcePath": "/examples/index.examples[202].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/jupyter_display/",
+    "outputPath": "/examples/jupyter_display/index.html",
+    "sourcePath": "/examples/index.examples[203].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/structured_clone/",
+    "outputPath": "/examples/structured_clone/index.html",
+    "sourcePath": "/examples/index.examples[204].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/url_parsing/",
+    "outputPath": "/examples/url_parsing/index.html",
+    "sourcePath": "/examples/index.examples[205].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/sqlite/",
+    "outputPath": "/examples/sqlite/index.html",
+    "sourcePath": "/examples/index.examples[206].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/download_progress/",
+    "outputPath": "/examples/download_progress/index.html",
+    "sourcePath": "/examples/index.examples[207].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/anthropic_sse/",
+    "outputPath": "/examples/anthropic_sse/index.html",
+    "sourcePath": "/examples/index.examples[208].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/temporal/",
+    "outputPath": "/examples/temporal/index.html",
+    "sourcePath": "/examples/index.examples[209].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/write_benchmarks/",
+    "outputPath": "/examples/write_benchmarks/index.html",
+    "sourcePath": "/examples/index.examples[210].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/secure_random_values/",
+    "outputPath": "/examples/secure_random_values/index.html",
+    "sourcePath": "/examples/index.examples[211].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/top_level_await/",
+    "outputPath": "/examples/top_level_await/index.html",
+    "sourcePath": "/examples/index.examples[212].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/aes_encryption/",
+    "outputPath": "/examples/aes_encryption/index.html",
+    "sourcePath": "/examples/index.examples[213].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/set_timezone/",
+    "outputPath": "/examples/set_timezone/index.html",
+    "sourcePath": "/examples/index.examples[214].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/intl_plural_list/",
+    "outputPath": "/examples/intl_plural_list/index.html",
+    "sourcePath": "/examples/index.examples[215].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/pid/",
+    "outputPath": "/examples/pid/index.html",
+    "sourcePath": "/examples/index.examples[216].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hmac_generate_verify/",
+    "outputPath": "/examples/hmac_generate_verify/index.html",
+    "sourcePath": "/examples/index.examples[217].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_cookies/",
+    "outputPath": "/examples/http_server_cookies/index.html",
+    "sourcePath": "/examples/index.examples[218].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/deno_outdated/",
+    "outputPath": "/examples/deno_outdated/index.html",
+    "sourcePath": "/examples/index.examples[219].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server_file_upload/",
+    "outputPath": "/examples/http_server_file_upload/index.html",
+    "sourcePath": "/examples/index.examples[220].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/reading_stdin/",
+    "outputPath": "/examples/reading_stdin/index.html",
+    "sourcePath": "/examples/index.examples[221].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/url_pattern/",
+    "outputPath": "/examples/url_pattern/index.html",
+    "sourcePath": "/examples/index.examples[222].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/watching_files/",
+    "outputPath": "/examples/watching_files/index.html",
+    "sourcePath": "/examples/index.examples[223].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/http_server/",
+    "outputPath": "/examples/http_server/index.html",
+    "sourcePath": "/examples/index.examples[224].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/webgpu_compute/",
+    "outputPath": "/examples/webgpu_compute/index.html",
+    "sourcePath": "/examples/index.examples[225].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/timing_safe_comparison/",
+    "outputPath": "/examples/timing_safe_comparison/index.html",
+    "sourcePath": "/examples/index.examples[226].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/exit_codes/",
+    "outputPath": "/examples/exit_codes/index.html",
+    "sourcePath": "/examples/index.examples[227].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/moving_renaming_files/",
+    "outputPath": "/examples/moving_renaming_files/index.html",
+    "sourcePath": "/examples/index.examples[228].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/abort_controller/",
+    "outputPath": "/examples/abort_controller/index.html",
+    "sourcePath": "/examples/index.examples[229].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/subprocess_env_cwd/",
+    "outputPath": "/examples/subprocess_env_cwd/index.html",
+    "sourcePath": "/examples/index.examples[230].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/hono_jwt_auth/",
+    "outputPath": "/examples/hono_jwt_auth/index.html",
+    "sourcePath": "/examples/index.examples[231].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/event_target/",
+    "outputPath": "/examples/event_target/index.html",
+    "sourcePath": "/examples/index.examples[232].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/openai_sse/",
+    "outputPath": "/examples/openai_sse/index.html",
+    "sourcePath": "/examples/index.examples[233].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/cbor_encoding/",
+    "outputPath": "/examples/cbor_encoding/index.html",
+    "sourcePath": "/examples/index.examples[234].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/examples/resize_images/",
+    "outputPath": "/examples/resize_images/index.html",
+    "sourcePath": "/examples/index.examples[235].page.tsx",
+    "layout": "doc.tsx",
+    "kind": "generated-script-example"
+  },
+  {
+    "url": "/api/deno/bundler/",
+    "outputPath": "/api/deno/bundler/index.html",
+    "sourcePath": "/reference/reference[0].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/cloud/",
+    "outputPath": "/api/deno/cloud/index.html",
+    "sourcePath": "/reference/reference[1].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/errors/",
+    "outputPath": "/api/deno/errors/index.html",
+    "sourcePath": "/reference/reference[2].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/fetch/",
+    "outputPath": "/api/deno/fetch/index.html",
+    "sourcePath": "/reference/reference[3].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/ffi/",
+    "outputPath": "/api/deno/ffi/index.html",
+    "sourcePath": "/reference/reference[4].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/file-system/",
+    "outputPath": "/api/deno/file-system/index.html",
+    "sourcePath": "/reference/reference[5].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/gpu/",
+    "outputPath": "/api/deno/gpu/index.html",
+    "sourcePath": "/reference/reference[6].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/http-server/",
+    "outputPath": "/api/deno/http-server/index.html",
+    "sourcePath": "/reference/reference[7].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/io/",
+    "outputPath": "/api/deno/io/index.html",
+    "sourcePath": "/reference/reference[8].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/jupyter/",
+    "outputPath": "/api/deno/jupyter/index.html",
+    "sourcePath": "/reference/reference[9].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/linter/",
+    "outputPath": "/api/deno/linter/index.html",
+    "sourcePath": "/reference/reference[10].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/network/",
+    "outputPath": "/api/deno/network/index.html",
+    "sourcePath": "/reference/reference[11].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/permissions/",
+    "outputPath": "/api/deno/permissions/index.html",
+    "sourcePath": "/reference/reference[12].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/runtime/",
+    "outputPath": "/api/deno/runtime/index.html",
+    "sourcePath": "/reference/reference[13].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/subprocess/",
+    "outputPath": "/api/deno/subprocess/index.html",
+    "sourcePath": "/reference/reference[14].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/telemetry/",
+    "outputPath": "/api/deno/telemetry/index.html",
+    "sourcePath": "/reference/reference[15].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/testing/",
+    "outputPath": "/api/deno/testing/index.html",
+    "sourcePath": "/reference/reference[16].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/websockets/",
+    "outputPath": "/api/deno/websockets/index.html",
+    "sourcePath": "/reference/reference[17].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/uncategorized/",
+    "outputPath": "/api/deno/uncategorized/index.html",
+    "sourcePath": "/reference/reference[18].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/cache/",
+    "outputPath": "/api/web/cache/index.html",
+    "sourcePath": "/reference/reference[20].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/canvas/",
+    "outputPath": "/api/web/canvas/index.html",
+    "sourcePath": "/reference/reference[21].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/crypto/",
+    "outputPath": "/api/web/crypto/index.html",
+    "sourcePath": "/reference/reference[22].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/encoding/",
+    "outputPath": "/api/web/encoding/index.html",
+    "sourcePath": "/reference/reference[23].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/events/",
+    "outputPath": "/api/web/events/index.html",
+    "sourcePath": "/reference/reference[24].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/fetch/",
+    "outputPath": "/api/web/fetch/index.html",
+    "sourcePath": "/reference/reference[25].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/file/",
+    "outputPath": "/api/web/file/index.html",
+    "sourcePath": "/reference/reference[26].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/geometry-interfaces-module-api/",
+    "outputPath": "/api/web/geometry-interfaces-module-api/index.html",
+    "sourcePath": "/reference/reference[27].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/gpu/",
+    "outputPath": "/api/web/gpu/index.html",
+    "sourcePath": "/reference/reference[28].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/io/",
+    "outputPath": "/api/web/io/index.html",
+    "sourcePath": "/reference/reference[29].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/intl/",
+    "outputPath": "/api/web/intl/index.html",
+    "sourcePath": "/reference/reference[30].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/messaging/",
+    "outputPath": "/api/web/messaging/index.html",
+    "sourcePath": "/reference/reference[31].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/performance/",
+    "outputPath": "/api/web/performance/index.html",
+    "sourcePath": "/reference/reference[32].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/platform/",
+    "outputPath": "/api/web/platform/index.html",
+    "sourcePath": "/reference/reference[33].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/storage/",
+    "outputPath": "/api/web/storage/index.html",
+    "sourcePath": "/reference/reference[34].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/streams/",
+    "outputPath": "/api/web/streams/index.html",
+    "sourcePath": "/reference/reference[35].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/url/",
+    "outputPath": "/api/web/url/index.html",
+    "sourcePath": "/reference/reference[36].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/wasm/",
+    "outputPath": "/api/web/wasm/index.html",
+    "sourcePath": "/reference/reference[37].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/websockets/",
+    "outputPath": "/api/web/websockets/index.html",
+    "sourcePath": "/reference/reference[38].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/workers/",
+    "outputPath": "/api/web/workers/index.html",
+    "sourcePath": "/reference/reference[39].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/uncategorized/",
+    "outputPath": "/api/web/uncategorized/index.html",
+    "sourcePath": "/reference/reference[40].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/assert/",
+    "outputPath": "/api/node/assert/index.html",
+    "sourcePath": "/reference/reference[42].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/async_hooks/",
+    "outputPath": "/api/node/async_hooks/index.html",
+    "sourcePath": "/reference/reference[43].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/buffer/",
+    "outputPath": "/api/node/buffer/index.html",
+    "sourcePath": "/reference/reference[44].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/child_process/",
+    "outputPath": "/api/node/child_process/index.html",
+    "sourcePath": "/reference/reference[45].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/cluster/",
+    "outputPath": "/api/node/cluster/index.html",
+    "sourcePath": "/reference/reference[46].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/console/",
+    "outputPath": "/api/node/console/index.html",
+    "sourcePath": "/reference/reference[47].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/constants/",
+    "outputPath": "/api/node/constants/index.html",
+    "sourcePath": "/reference/reference[48].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/crypto/",
+    "outputPath": "/api/node/crypto/index.html",
+    "sourcePath": "/reference/reference[49].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/dgram/",
+    "outputPath": "/api/node/dgram/index.html",
+    "sourcePath": "/reference/reference[50].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/diagnostics_channel/",
+    "outputPath": "/api/node/diagnostics_channel/index.html",
+    "sourcePath": "/reference/reference[51].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/dns/",
+    "outputPath": "/api/node/dns/index.html",
+    "sourcePath": "/reference/reference[52].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/dns/promises/",
+    "outputPath": "/api/node/dns/promises/index.html",
+    "sourcePath": "/reference/reference[53].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/domain/",
+    "outputPath": "/api/node/domain/index.html",
+    "sourcePath": "/reference/reference[54].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/events/",
+    "outputPath": "/api/node/events/index.html",
+    "sourcePath": "/reference/reference[55].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/fs/",
+    "outputPath": "/api/node/fs/index.html",
+    "sourcePath": "/reference/reference[56].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/fs/promises/",
+    "outputPath": "/api/node/fs/promises/index.html",
+    "sourcePath": "/reference/reference[57].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/http/",
+    "outputPath": "/api/node/http/index.html",
+    "sourcePath": "/reference/reference[58].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/http2/",
+    "outputPath": "/api/node/http2/index.html",
+    "sourcePath": "/reference/reference[59].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/https/",
+    "outputPath": "/api/node/https/index.html",
+    "sourcePath": "/reference/reference[60].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/inspector/",
+    "outputPath": "/api/node/inspector/index.html",
+    "sourcePath": "/reference/reference[61].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/inspector/promises/",
+    "outputPath": "/api/node/inspector/promises/index.html",
+    "sourcePath": "/reference/reference[62].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/module/",
+    "outputPath": "/api/node/module/index.html",
+    "sourcePath": "/reference/reference[63].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/net/",
+    "outputPath": "/api/node/net/index.html",
+    "sourcePath": "/reference/reference[64].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/os/",
+    "outputPath": "/api/node/os/index.html",
+    "sourcePath": "/reference/reference[65].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/path/",
+    "outputPath": "/api/node/path/index.html",
+    "sourcePath": "/reference/reference[66].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/perf_hooks/",
+    "outputPath": "/api/node/perf_hooks/index.html",
+    "sourcePath": "/reference/reference[67].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/process/",
+    "outputPath": "/api/node/process/index.html",
+    "sourcePath": "/reference/reference[68].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/punycode/",
+    "outputPath": "/api/node/punycode/index.html",
+    "sourcePath": "/reference/reference[69].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/querystring/",
+    "outputPath": "/api/node/querystring/index.html",
+    "sourcePath": "/reference/reference[70].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/readline/",
+    "outputPath": "/api/node/readline/index.html",
+    "sourcePath": "/reference/reference[71].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/readline/promises/",
+    "outputPath": "/api/node/readline/promises/index.html",
+    "sourcePath": "/reference/reference[72].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/repl/",
+    "outputPath": "/api/node/repl/index.html",
+    "sourcePath": "/reference/reference[73].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/sea/",
+    "outputPath": "/api/node/sea/index.html",
+    "sourcePath": "/reference/reference[74].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/sqlite/",
+    "outputPath": "/api/node/sqlite/index.html",
+    "sourcePath": "/reference/reference[75].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/stream/",
+    "outputPath": "/api/node/stream/index.html",
+    "sourcePath": "/reference/reference[76].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/stream/consumers/",
+    "outputPath": "/api/node/stream/consumers/index.html",
+    "sourcePath": "/reference/reference[77].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/stream/promises/",
+    "outputPath": "/api/node/stream/promises/index.html",
+    "sourcePath": "/reference/reference[78].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/stream/web/",
+    "outputPath": "/api/node/stream/web/index.html",
+    "sourcePath": "/reference/reference[79].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/string_decoder/",
+    "outputPath": "/api/node/string_decoder/index.html",
+    "sourcePath": "/reference/reference[80].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/test/",
+    "outputPath": "/api/node/test/index.html",
+    "sourcePath": "/reference/reference[81].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/test/reporters/",
+    "outputPath": "/api/node/test/reporters/index.html",
+    "sourcePath": "/reference/reference[82].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/timers/",
+    "outputPath": "/api/node/timers/index.html",
+    "sourcePath": "/reference/reference[83].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/timers/promises/",
+    "outputPath": "/api/node/timers/promises/index.html",
+    "sourcePath": "/reference/reference[84].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/tls/",
+    "outputPath": "/api/node/tls/index.html",
+    "sourcePath": "/reference/reference[85].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/trace_events/",
+    "outputPath": "/api/node/trace_events/index.html",
+    "sourcePath": "/reference/reference[86].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/tty/",
+    "outputPath": "/api/node/tty/index.html",
+    "sourcePath": "/reference/reference[87].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/url/",
+    "outputPath": "/api/node/url/index.html",
+    "sourcePath": "/reference/reference[88].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/util/",
+    "outputPath": "/api/node/util/index.html",
+    "sourcePath": "/reference/reference[89].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/util/types/",
+    "outputPath": "/api/node/util/types/index.html",
+    "sourcePath": "/reference/reference[90].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/v8/",
+    "outputPath": "/api/node/v8/index.html",
+    "sourcePath": "/reference/reference[91].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/vm/",
+    "outputPath": "/api/node/vm/index.html",
+    "sourcePath": "/reference/reference[92].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/wasi/",
+    "outputPath": "/api/node/wasi/index.html",
+    "sourcePath": "/reference/reference[93].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/worker_threads/",
+    "outputPath": "/api/node/worker_threads/index.html",
+    "sourcePath": "/reference/reference[94].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/zlib/",
+    "outputPath": "/api/node/zlib/index.html",
+    "sourcePath": "/reference/reference[95].page.ts",
+    "layout": "reference/multiSymbol.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/deno/",
+    "outputPath": "/api/deno/index.html",
+    "sourcePath": "/reference/reference[97].page.ts",
+    "layout": "reference/apiIndex.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/web/",
+    "outputPath": "/api/web/index.html",
+    "sourcePath": "/reference/reference[98].page.ts",
+    "layout": "reference/apiIndex.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/node/",
+    "outputPath": "/api/node/index.html",
+    "sourcePath": "/reference/reference[99].page.ts",
+    "layout": "reference/apiIndex.tsx",
+    "kind": "generated-api-reference"
+  },
+  {
+    "url": "/api/",
+    "outputPath": "/api/index.html",
+    "sourcePath": "/reference/reference[100].page.ts",
+    "layout": "reference/landing.tsx",
+    "kind": "generated-api-reference"
   }
 ]
