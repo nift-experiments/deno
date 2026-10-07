@@ -135,7 +135,10 @@ for(const f of fixtures){
  timing.body_s+=(performance.now()-bodyStart)/1000;
  if(f.sourcePath.endsWith('.mdx'))timing.mdx_s+=(performance.now()-bodyStart)/1000;
  const layoutStart=performance.now();
- for(let name=attrs.layout??gen?.layout??f.layout??'doc.tsx';name;){
+ // Source layout removal must fall back to the pinned default, not its captured route value.
+ const sourceDefaultLayout=inherited(f.sourcePath).layout??globalData.layout??'doc.tsx';
+ const routeFallback=frontmatterOwnership[f.url]?.includes('layout')?sourceDefaultLayout:f.layout??sourceDefaultLayout;
+ for(let name=attrs.layout??gen?.layout??routeFallback;name;){
   const m=await import(toFileUrl(Deno.cwd()+'/authored/_includes/'+name).href);
   html=await render(m.default,{...data,children:html,content:html});name=m.layout;
  }
