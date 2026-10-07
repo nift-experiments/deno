@@ -210,3 +210,7 @@ The generated eleven phases remain the methodology. Concrete gates: D0 init/revi
 Source is `../deno-upstream` pinned in investigation/BASELINE.json. Reference artifacts/logs/tools live in `../deno-baseline`, separate from this project's `public/`. Never treat the init placeholder as migrated output. Do not modify Nift or tracked upstream files. No remote Orama upload to upstream services. All external generated inputs and service boundaries must be frozen/classified before parity claims. Record five serialized benchmark samples after parity, complete publication/search work, and individual-process versus aggregate RSS boundaries.
 
 Maintained-source model: Preserve authored Markdown/MDX, frontmatter, structured reference inputs and useful source organization. Prove corpus-driven compatibility before broad migration; transient rendered bodies are not maintained source.
+
+## D9 final comparison checkpoint
+
+D0–D9 architecture, corpus, HTTP/browser, lifecycle and five-sample benchmark gates are complete; the preceding checkpoint history is retained. Read investigation/D9-COMPARISON.md and MIGRATION-INIT-FINAL-REVIEW.md. Native full and prepared-input boundaries, frozen WASM delivery, measured process/phase RSS and prior timings remain explicit. The final report checkpoint is followed by fresh committed-checkout verification. No Nift core change, Docker experiment change or Labs publication.
