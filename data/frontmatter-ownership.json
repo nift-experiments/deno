@@ -1,0 +1,2359 @@
+{
+  "/runtime/run/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/run/watch_mode/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/cli_apps/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/packages/publishing/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/packages/peer_dependencies/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/packages/supply_chain/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/packages/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/packages/private_repositories/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/cron/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/fundamentals/stability_and_releases/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/open_telemetry/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/fundamentals/security/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/fundamentals/typescript/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/web_dev/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/modules/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/configuration/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/ffi/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/fundamentals/debugging/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/cpu_profiling/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/fundamentals/http_server/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/node/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/fundamentals/workspaces/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/desktop/serving/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/hmr/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/auto_update/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/tray_and_dock/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/comparison/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/webgpu/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/backends/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/devtools/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/distribution/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/dialogs/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/notifications/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/error_reporting/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/bindings/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/configuration/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/frameworks/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/menus/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/desktop/windows/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/jsx/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/env_variables/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/std/datetime/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/csv/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/async/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/internal/": [
+    "last_modified",
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/json/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/fs/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/data-structures/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/cbor/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/streams/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/xml/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/text/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/webgpu/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/dotenv/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/random/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/collections/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/ulid/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/semver/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/cache/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/front-matter/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/ini/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/http/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/io/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/media-types/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/cli/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/crypto/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/": [
+    "title",
+    "description"
+  ],
+  "/runtime/reference/std/fmt/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/regexp/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/bytes/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/msgpack/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/testing/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/math/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/path/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/assert/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/log/": [
+    "last_modified",
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/uuid/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/encoding/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/expect/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/jsonc/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/toml/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/net/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/yaml/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/tar/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/std/html/": [
+    "title",
+    "description",
+    "jsr",
+    "pkg",
+    "version",
+    "generated",
+    "stability"
+  ],
+  "/runtime/reference/continuous_integration/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/cli/env_variables/": [
+    "last_modified",
+    "title"
+  ],
+  "/runtime/reference/cli/coverage/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/x/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/lsp/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/bench/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/upgrade/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/clean/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/run/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/bundle/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "info"
+  ],
+  "/runtime/reference/cli/info/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/task/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/watch/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/add/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/audit/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/compile/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/uninstall/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/lint/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/sandbox/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/unlink/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/link/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/doc/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/ci/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/update/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/remove/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/jupyter/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/why/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "openGraphLayout",
+    "openGraphTitle"
+  ],
+  "/runtime/reference/cli/fmt/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/unstable_flags/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/runtime/reference/cli/completions/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/repl/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/outdated/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/init/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/create/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/types/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/list/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/serve/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/test/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/desktop/": [
+    "last_modified",
+    "title",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/deploy/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/check/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/approve_scripts/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/bump_version/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/pack/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/publish/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/transpile/": [
+    "last_modified",
+    "title",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/eval/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/cli/install/": [
+    "last_modified",
+    "title",
+    "oldUrl",
+    "command",
+    "openGraphLayout",
+    "openGraphTitle",
+    "description"
+  ],
+  "/runtime/reference/ts_config_migration/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/wasm/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/bundling/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/deno_serve_legacy_abort/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/deno_json/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/loader_hooks/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/docker/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/permissions/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/lsp_integration/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/migration_guide/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/vscode/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/web_platform_apis/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/reference/lint_plugins/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/reference/node_apis/": [
+    "last_modified",
+    "title",
+    "description",
+    "templateEngine",
+    "oldUrl"
+  ],
+  "/runtime/migrate/migrate_from_npm/": [
+    "title",
+    "description",
+    "last_modified",
+    "oldUrl"
+  ],
+  "/runtime/migrate/migrate_from_yarn/": [
+    "title",
+    "description",
+    "last_modified"
+  ],
+  "/runtime/migrate/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/migrate/migrate_from_bun/": [
+    "title",
+    "description",
+    "last_modified"
+  ],
+  "/runtime/migrate/migrate_from_pnpm/": [
+    "title",
+    "description",
+    "last_modified"
+  ],
+  "/runtime/help/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/": [
+    "last_modified",
+    "title",
+    "description",
+    "pagination_next",
+    "oldUrl"
+  ],
+  "/runtime/getting_started/installation/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/getting_started/setup_your_environment/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/contributing/release_schedule/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/contributing/architecture/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/contributing/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/contributing/style_guide/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/deploy/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/test/coverage/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/snapshots/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/doc_tests/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/sanitizers/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/mocking/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/runtime/test/migrate_from_jest/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/runtime/lint_and_format/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/sandbox/ssh/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/volumes/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/security/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/cli/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/timeouts/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/promote/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/expose_http/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/apps/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/create/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/sandbox/getting_started/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/orama/README/": [],
+  "/ai/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/styleguide/og/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/writing/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/components/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/typography/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/og/cli-commands/": [
+    "title",
+    "openGraphLayout",
+    "openGraphTitle"
+  ],
+  "/styleguide/og/color-override/": [
+    "title",
+    "description",
+    "openGraphColor"
+  ],
+  "/styleguide/og/title-only/": [
+    "title"
+  ],
+  "/styleguide/og/title-and-description-superscript/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/og/title-and-description/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/og/short-title-and-long-description/": [
+    "title",
+    "description"
+  ],
+  "/styleguide/og/short-title-and-short-description/": [
+    "title",
+    "description"
+  ],
+  "/examples/sandbox_spawn_subprocess/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_command_cancellation/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_access_output/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_timeout_control/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_environment_variables/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_stream_output/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_upload_files/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_template_literals/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_vscode_instance/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_javascript_repl/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_error_handling/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_web_framework/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_memory/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/sandbox_ssh_access/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "layout"
+  ],
+  "/examples/web_testing_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/otel_span_propagation_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/add_remove_dependencies_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/prisma_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/svelte_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/simple_api_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/migrate_custom_domain_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/subprocess_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/qwik_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/vue_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/cloudflare_workers_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/connecting_to_databases_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/mongoose_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/deploy_command_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/chat_app_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/snapshot_python_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/grafana_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/google_cloud_run_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/tunnel_database_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/digital_ocean_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/private_registries_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/deno_doc_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/redis_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/local_unpublished_packages_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/planetscale_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/astro_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/cjs_to_esm_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/fetch_data_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/deploy_otel_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/deno_deploy_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/debugging_with_console_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/aws_ecs_fargate_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/testing_library_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/vite_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/os_signals_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/volumes_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/cloudflare_workers_wrangler_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/initialize_project_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/sveltekit_tutorial/": [
+    "last_modified",
+    "title",
+    "url"
+  ],
+  "/examples/word_finder_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/dependency_lockfile_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/hashbang_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/honeycomb_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/snapshots_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/file_server_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/run_script_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/import_maps_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/workspaces_monorepo_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/basic_opentelemetry_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/next_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/migrate_node_project_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/file_based_routing_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/drizzle_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/nuxt_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/testing_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/tunnel_telemetry_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/aws_lambda_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/aws_lightsail_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/llm_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/apollo_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/solidjs_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/mysql2_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/module_metadata_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/tanstack_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/kinsta_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/file_system_events_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/fresh_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/npm_lifecycle_scripts_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/tunnel_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/express_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/bdd_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/hyperdx_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/examples/trpc_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/react_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url",
+    "oldUrl"
+  ],
+  "/examples/deno_github_actions_tutorial/": [
+    "last_modified",
+    "title",
+    "description",
+    "url"
+  ],
+  "/AGENTS/": [],
+  "/api/deno/about/": [
+    "title",
+    "description",
+    "layout",
+    "url",
+    "oldUrl"
+  ],
+  "/api/node/about/": [
+    "title",
+    "description",
+    "layout",
+    "url",
+    "oldUrl"
+  ],
+  "/api/web/about/": [
+    "title",
+    "description",
+    "layout",
+    "url",
+    "oldUrl"
+  ],
+  "/subhosting/api/authentication/": [
+    "last_modified",
+    "title"
+  ],
+  "/subhosting/api/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/subhosting/": [],
+  "/subhosting/manual/quick_start/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/subhosting/manual/api_migration_guide/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/subhosting/manual/acceptable_use_policy/": [
+    "last_modified",
+    "title"
+  ],
+  "/subhosting/manual/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/subhosting/manual/events/": [
+    "last_modified",
+    "title"
+  ],
+  "/subhosting/manual/pricing_and_limits/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/subhosting/manual/planning_your_implementation/": [
+    "last_modified",
+    "title"
+  ],
+  "/404/": [
+    "title",
+    "description",
+    "layout"
+  ],
+  "/deploy/support/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/acceptable_use_policy/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/terms_and_conditions/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/security/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/fulfillment_policy/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/reference/databases/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/cloud_connections/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/reference/observability/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/cron/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/deno_kv/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/reference/playgrounds/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/builds/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/runtime/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/domains/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/accounts/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/timelines/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/button/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/apps/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/env_vars_and_contexts/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/reference/caching/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/oidc/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/frameworks/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/tunnel/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/reference/organizations/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/kv/data_modeling_typescript/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/operations/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/key_space/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/transactions/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/backup/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/key_expiration/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/secondary_indexes/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/kv/node/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/middleware/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/cron/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/playgrounds/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/edge_cache/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/dynamodb/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/kv_on_deploy/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/custom-domains/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/api/runtime-fetch/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-node/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-broadcast-channel/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-headers/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-request/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/compression/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/": [
+    "last_modified",
+    "title",
+    "sidebar_title",
+    "pagination_next",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/dynamic-import/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-sockets/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-fs/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/api/runtime-response/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/prisma-postgres/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/running-scripts-locally/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/firebase/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/neon-postgres/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/postgres/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/deployments/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/logs/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/queues/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/how-to-deploy/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/environment-variables/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/ci_github/": [
+    "last_modified",
+    "title",
+    "oldUrl"
+  ],
+  "/deploy/classic/deployctl/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/organizations/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/classic/regions/": [
+    "last_modified",
+    "title"
+  ],
+  "/deploy/privacy_policy/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/migration_guide/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/usage/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/changelog/": [
+    "last_modified",
+    "title",
+    "description"
+  ],
+  "/deploy/pricing_and_limits/": [
+    "last_modified",
+    "title",
+    "description",
+    "oldUrl"
+  ],
+  "/deploy/getting_started/": [
+    "last_modified",
+    "title",
+    "description"
+  ]
+}

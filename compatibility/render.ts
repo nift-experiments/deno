@@ -4,7 +4,7 @@ import {markdown,markdownMetrics} from './markdown.ts';
 import {components,render,helpers,jsxMetrics} from './jsx.ts';
 import {MDXEngine} from 'lume/plugins/mdx.ts';
 import {remarkGfm} from 'lume/deps/mdx.ts';
-import {stringToDocument,documentToString} from 'lume/core/utils/dom.ts';
+import {NormalizerPool} from './normalize-pool.ts';
 const started=performance.now();
 const timing={frontmatter_s:0,metadata_s:0,page_metadata_s:0,redirect_generation_subset_s:0,generators:{},generator_s:0,component_binding_s:0,body_s:0,mdx_s:0,layout_s:0,dom_s:0};
 const fixtures=JSON.parse(await Deno.readTextFile(Deno.args.includes('--fixtures')?'compatibility/fixtures.json':'data/routes.json'));
@@ -20,6 +20,7 @@ const revive=(v:unknown):unknown=>{
  return Array.isArray(v)?v.map(revive):Object.fromEntries(Object.entries(v).map(([k,x])=>[k,revive(x)]));
 };
 const metadata=Object.fromEntries(Object.entries(seeds).map(([k,v])=>[k,revive(v)]));
+const frontmatterOwnership=JSON.parse(await Deno.readTextFile('data/frontmatter-ownership.json'));
 const sourceFrontmatter=new Map();
 // Cross-page queries read maintained frontmatter, not the migration seed.
 for (const f of fixtures) {
@@ -28,6 +29,7 @@ for (const f of fixtures) {
  const yamlStart=performance.now();
  const parsed=raw.startsWith('---')?extractYaml(raw).attrs:{};
  sourceFrontmatter.set(f.sourcePath,parsed);
+ for(const key of frontmatterOwnership[f.url]??[]){if(!(key in parsed)&&metadata[f.url])delete metadata[f.url][key];}
  if (raw.startsWith('---')) Object.assign(metadata[f.url] ??= {}, parsed);
  timing.frontmatter_s+=(performance.now()-yamlStart)/1000;
 }
@@ -78,6 +80,12 @@ try{previousOG=JSON.parse(await Deno.readTextFile('.generated/og-data.json'));}c
 const cachePlan=JSON.parse(await Deno.readTextFile('.generated/render-cache-plan.json').catch(()=>'{}'));
 const reusable=new Set(Deno.args.includes('--cache-plan')?(cachePlan.reusable??[]):[]);
 const ogPages=[];
+const missCount=fixtures.filter((f:any)=>!reusable.has(f.url)).length;
+const requestedWorkers=Number(Deno.env.get('DENO_NORMALIZE_WORKERS')??'4');
+if(!Number.isInteger(requestedWorkers)||requestedWorkers<0||requestedWorkers>4)throw Error('Normalization workers must be 0..4');
+const pool=new NormalizerPool(missCount>=32?requestedWorkers:0);
+const inFlight=new Set<Promise<void>>();
+let backpressure_s=0,output_io_work_s=0;
 const generatorStart=performance.now();
 for(const source of ['examples/index.examples.page.tsx','examples/index.page.tsx','lint/lint_rule.page.tsx','reference/reference.page.ts']){
  const sourceStem='/'+source.replace('.page.tsx','').replace('.page.ts','');
@@ -132,20 +140,22 @@ for(const f of fixtures){
   html=await render(m.default,{...data,children:html,content:html});name=m.layout;
  }
  timing.layout_s+=(performance.now()-layoutStart)/1000;
- const domStart=performance.now();
- const doc=stringToDocument('<!DOCTYPE html>\n'+html);
- for(const table of doc.querySelectorAll('table')){
-  if(table.parentElement?.classList.contains('table-wrapper'))continue;
-  const wrap=doc.createElement('div');wrap.className='table-wrapper';table.replaceWith(wrap);wrap.append(table);
- }
- html=documentToString(doc);
- timing.dom_s+=(performance.now()-domStart)/1000;
  ogPages.push({route:f.url,title:data.title,description:data.description,openGraphLayout:data.openGraphLayout??'/open_graph/default.jsx',openGraphTitle:data.openGraphTitle,openGraphColor:data.openGraphColor});
+ const job=pool.normalize(html).then(async(normalized)=>{html=normalized;
+ const writeStart=performance.now();
  const expected=Deno.args.includes('--verify')?await Deno.readTextFile('../deno-baseline/site/'+f.outputPath.replace(/^\//,'')):html;
  const out='.generated/pages/'+f.url.replaceAll('/','_')+'.html';await Deno.writeTextFile(out,html);
  console.log(JSON.stringify({route:f.url,match:html===expected,bytes:html.length,expected:expected.length}));
+ output_io_work_s+=(performance.now()-writeStart)/1000;
  if(html!==expected){await Deno.writeTextFile('.generated/proof/expected.html',expected);throw Error('Layout parity failed: '+f.url);}
+ });
+ inFlight.add(job);job.then(()=>inFlight.delete(job),()=>{});
+ if(inFlight.size>=Math.max(1,pool.count)){const waitStart=performance.now();await Promise.race(inFlight);backpressure_s+=(performance.now()-waitStart)/1000;}
 }
 
-await Deno.writeTextFile('.generated/render-metrics.json',JSON.stringify({render_s:(performance.now()-started)/1000,pages:fixtures.length,reused_pages:reusable.size,...timing,...markdownMetrics,...jsxMetrics,counter_boundaries:'Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. Do not add overlapping counters.'}));
+const drainStart=performance.now();
+try{await Promise.all(inFlight);}finally{pool.close();}
+const normalization_drain_s=(performance.now()-drainStart)/1000;
+timing.dom_s=pool.work_s;
+await Deno.writeTextFile('.generated/render-metrics.json',JSON.stringify({render_s:(performance.now()-started)/1000,pages:fixtures.length,reused_pages:reusable.size,normalization_workers:pool.count,normalization_backpressure_s:backpressure_s,normalization_drain_s,output_io_work_s,...timing,...markdownMetrics,...jsxMetrics,counter_boundaries:'Frontmatter is a subset of initial/per-page metadata. Generator-family and redirect counters are subsets of generation. Markdown parsing and Prism are subsets of inclusive Markdown, whose helpers also occur in layouts/generators. MDX is a subset of body; JSX expansion is a subset of body/layout work, with nested render calls excluded. DOM and output I/O are summed job work, overlapping producer work with parser workers. Backpressure/drain describe waiting, not additional transformation costs. Do not add overlapping counters.'}));
 await Deno.writeTextFile('.generated/og-data.json',JSON.stringify(ogPages));
