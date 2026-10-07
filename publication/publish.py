@@ -14,7 +14,7 @@ def publish(root, model):
         shutil.copyfile(source,dst)
         owned.append(target)
     for p in sorted((root/'assets').rglob('*')):
-        if p.is_file():
+        if p.is_file() and p.relative_to(root/'assets').parts[0]!='og':
             rel=p.relative_to(root/'assets').as_posix()
             source=root/'authored'/rel if model=='deno' and rel.startswith('examples/scripts/') else p
             copy(source,rel)
@@ -41,7 +41,12 @@ def publish(root, model):
         xml+='  <url>\n    <loc>https://docs.deno.com'+url+'</loc>\n    <lastmod>'+dates.get(url,'2026-10-07T00:00:00.000Z')+'</lastmod>\n  </url>\n'
     xml+='</urlset>'
     (root/'public/sitemap.xml').write_text(xml);owned.append('sitemap.xml')
-    for url in urls:owned.append(url.lstrip('/')+'index.png')
+    images=json.loads((root/'data/og-assets.json').read_text())
+    images_by_route={image['route']:image for image in images}
+    for url in urls:
+        if url not in images_by_route:raise ValueError('Route has no maintained OG asset: '+url+'. Run the explicit OG maintenance workflow before publication.')
+        image=images_by_route[url]
+        copy(root/image['source'],image['output'])
     ledger=root/'.generated/publication-owned.json'
     old=json.loads(ledger.read_text())if ledger.exists()else['assets/css/style.css','assets/js/script.js']
     owned=sorted(set(owned))

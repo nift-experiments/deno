@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import subprocess
+from measure import run_phase
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,7 +38,8 @@ def compose(model):
     changed('.generated/owned.json', json.dumps(owned, indent=2) + '\n')
     if not (ROOT / 'templates/template.html').exists():
         changed('templates/template.html', '@script { fn(rawHtml(path)) { f := file(path); f.open(); value := f.read_all(); f.close(); return value; } }@content')
-    subprocess.run(['nift', 'build'], cwd=ROOT, check=True)
+    phase = run_phase('nift', ['nift', 'build'], cwd=ROOT)
+    changed('.generated/nift-metrics.json', json.dumps(phase, indent=2) + '\n')
 
 
 def split(html):

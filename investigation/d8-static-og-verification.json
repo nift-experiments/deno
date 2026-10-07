@@ -1,0 +1,60 @@
+{
+  "files": 2573,
+  "all_publication_bytes_equal": true,
+  "maintained_og_assets": 834,
+  "normal_build_og_generation_s": 0,
+  "explicit_selected_update_reproduces_accepted_bytes": true,
+  "single_build_observation": {
+    "model": "maintained Markdown/MDX/structured references -> standalone renderer -> transient HTML -> Nift -> publication/search",
+    "render_s": 19.689252499956638,
+    "render_components": {
+      "render_s": 19.34397223,
+      "pages": 834,
+      "generator_s": 1.403295564,
+      "component_binding_s": 1.41101568100001,
+      "body_s": 0.9483014630000034,
+      "mdx_s": 0.060253380000001015,
+      "layout_s": 3.408222948999994,
+      "dom_s": 9.74050522499998,
+      "markdown_inclusive_s": 0.8546727340000121,
+      "prism_subset_s": 0.2418301319999809,
+      "render_calls": 2205,
+      "counter_boundaries": "Prism is a subset of inclusive Markdown; MDX is a subset of body; Markdown helpers also occur in layout/generator work. Do not add overlapping counters."
+    },
+    "phases": {
+      "render": {
+        "wall_s": 19.68841981701553,
+        "maximum_measured_process_rss_mib": 971.94140625
+      },
+      "search_generation": {
+        "wall_s": 1.5569117290433496,
+        "maximum_measured_process_rss_mib": 560.9375
+      },
+      "search_clock": {
+        "wall_s": 0.21924287406727672,
+        "maximum_measured_process_rss_mib": 159.71875
+      },
+      "llms": {
+        "wall_s": 0.23731985897757113,
+        "maximum_measured_process_rss_mib": 132.79296875
+      }
+    },
+    "nift_process": {
+      "wall_s": 0.4568103749770671,
+      "maximum_measured_process_rss_mib": 130.23828125
+    },
+    "nift_preparation_and_composition_s": 1.2459747300017625,
+    "search_s": 1.7770859298761934,
+    "llms_s": 0.2377204429358244,
+    "og_generation_s": 0,
+    "og_model": "maintained static publication assets; explicit updates outside routine builds",
+    "publication_s": 0.4027482559904456,
+    "non_html_outputs": 2573,
+    "complete_s": 23.353623065166175
+  },
+  "explicit_update": {
+    "explicit_update_s": 17.040810785023496,
+    "images": 1,
+    "included_in_normal_publication": false
+  }
+}
