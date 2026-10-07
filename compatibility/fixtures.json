@@ -1,0 +1,80 @@
+[
+  {
+    "url": "/runtime/reference/cli/run/",
+    "outputPath": "/runtime/reference/cli/run/index.html",
+    "sourcePath": "/runtime/reference/cli/run.md",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/runtime/",
+    "outputPath": "/runtime/index.html",
+    "sourcePath": "/runtime/index.md",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/sandbox/",
+    "outputPath": "/sandbox/index.html",
+    "sourcePath": "/sandbox/index.md",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/styleguide/components/",
+    "outputPath": "/styleguide/components/index.html",
+    "sourcePath": "/styleguide/components.mdx",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/styleguide/typography/",
+    "outputPath": "/styleguide/typography/index.html",
+    "sourcePath": "/styleguide/typography.mdx",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/subhosting/manual/",
+    "outputPath": "/subhosting/manual/index.html",
+    "sourcePath": "/subhosting/manual/index.md",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/404/",
+    "outputPath": "/404/index.html",
+    "sourcePath": "/404/index.mdx",
+    "layout": "raw.tsx"
+  },
+  {
+    "url": "/deploy/classic/api/runtime-fs/",
+    "outputPath": "/deploy/classic/api/runtime-fs/index.html",
+    "sourcePath": "/deploy/classic/api/runtime-fs.md",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/lint/rules/ban-ts-comment/",
+    "outputPath": "/lint/rules/ban-ts-comment/index.html",
+    "sourcePath": "/lint/lint_rule[20].page.tsx",
+    "layout": "lintRule.tsx"
+  },
+  {
+    "url": "/examples/hello_world/",
+    "outputPath": "/examples/hello_world/index.html",
+    "sourcePath": "/examples/index.examples[185].page.tsx",
+    "layout": "doc.tsx"
+  },
+  {
+    "url": "/api/deno/http-server/",
+    "outputPath": "/api/deno/http-server/index.html",
+    "sourcePath": "/reference/reference[7].page.ts",
+    "layout": "reference/multiSymbol.tsx"
+  },
+  {
+    "url": "/api/web/fetch/",
+    "outputPath": "/api/web/fetch/index.html",
+    "sourcePath": "/reference/reference[25].page.ts",
+    "layout": "reference/multiSymbol.tsx"
+  },
+  {
+    "url": "/api/node/assert/",
+    "outputPath": "/api/node/assert/index.html",
+    "sourcePath": "/reference/reference[42].page.ts",
+    "layout": "reference/multiSymbol.tsx"
+  }
+]

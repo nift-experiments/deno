@@ -1,1 +1,12 @@
 .nift/.lock
+
+.generated/
+.cache/
+authored/node_modules/
+authored/_site/
+authored/reference_gen/gen/reference-warnings.log
+
+public/
+.nift/public/
+
+__pycache__/

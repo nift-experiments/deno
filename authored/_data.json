@@ -1,0 +1,31 @@
+{
+  "navigation": [
+    {
+      "name": "Runtime",
+      "href": "/runtime/"
+    },
+    {
+      "name": "API reference",
+      "href": "/api/"
+    },
+    {
+      "name": "Examples",
+      "href": "/examples/"
+    },
+    {
+      "name": "Deno Deploy",
+      "href": "/deploy/",
+      "style": "services"
+    }
+  ],
+  "sidebar": [
+    {
+      "items": [
+        {
+          "title": "deno.com",
+          "href": "https://deno.com"
+        }
+      ]
+    }
+  ]
+}

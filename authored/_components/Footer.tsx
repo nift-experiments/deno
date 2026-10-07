@@ -1,0 +1,158 @@
+export default function Footer_new() {
+  return (
+    <footer className="text-smaller bg-gray-50 dark:bg-gray-950 p-4 pt-12 border-t border-t-foreground-tertiary">
+      <nav className="flex flex-col gap-x-4 gap-y-12 w-max max-w-full md:flex-row md:flex-wrap md:justify-between md:gap-16 lg:gap-24">
+        {data.map((category) => (
+          <section className="flex-auto">
+            <h3 className="mb-2 uppercase font-bold text-foreground-primary whitespace-pre">
+              {category.title}
+            </h3>
+            <ul className="m-0 p-0 pl-3 border-l border-l-sidebar-line list-none">
+              {category.items.map((item) => (
+                <li>
+                  <a
+                    className="block mb-2 hover:text-primary hover:underline"
+                    href={item.to ?? item.href}
+                    dangerouslySetInnerHTML={{ __html: item.label }}
+                  />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </nav>
+      <p className="m-0 mt-16 mx-auto text-xs text-foreground-secondary">
+        Copyright © {new Date().getFullYear()} the Deno authors.
+      </p>
+    </footer>
+  );
+}
+
+interface FooterCategory {
+  title: string;
+  items: FooterItem[];
+}
+
+type FooterItem = {
+  label: string;
+  to: string;
+} | {
+  label: string;
+  href: string;
+};
+
+const data = [
+  {
+    title: "Deno Docs",
+    items: [
+      {
+        label: "Deno Runtime",
+        to: "/runtime/",
+      },
+      {
+        label: "Examples",
+        href: "/examples/",
+      },
+      {
+        label: "Standard Library",
+        href: "https://jsr.io/@std",
+      },
+      {
+        label: "Deno API Reference",
+        href: "/api/deno/",
+      },
+    ],
+  },
+  {
+    title: "Services Docs",
+    items: [
+      {
+        label: "Deno Deploy ",
+        to: "/deploy/",
+      },
+      {
+        label: "Deno Deploy Classic",
+        to: "/deploy/classic/",
+      },
+      {
+        label: "Deno Subhosting",
+        to: "/subhosting/manual/",
+      },
+    ],
+  },
+  {
+    title: "Community",
+    items: [
+      {
+        label: "Discord",
+        href: "https://discord.gg/deno",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/denoland",
+      },
+      {
+        label: "YouTube",
+        href: "https://youtube.com/@deno_land",
+      },
+      {
+        label: "Bluesky",
+        href: "https://bsky.app/profile/deno.land",
+      },
+      {
+        label: "Mastodon",
+        href: "https://fosstodon.org/@deno_land",
+      },
+      {
+        label: "Twitter",
+        href: "https://twitter.com/deno_land",
+      },
+      {
+        label: "Newsletter",
+        href: "https://deno.news/",
+      },
+    ],
+  },
+  {
+    title: "Help & Feedback",
+    items: [
+      {
+        label: "Community Support",
+        href: "https://discord.gg/deno",
+      },
+      {
+        label: "Deploy System Status",
+        href: "https://denostatus.com",
+      },
+      {
+        label: "Deploy Feedback",
+        href: "https://github.com/denoland/deploy_feedback",
+      },
+      {
+        label: "Report a Problem",
+        href: "mailto:support@deno.com",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    items: [
+      {
+        label: "Deno Website",
+        href: "https://deno.com/",
+      },
+      {
+        label: "Blog",
+        href: "https://deno.com/blog",
+      },
+      {
+        label: "Privacy Policy",
+        href: "/deploy/privacy_policy",
+      },
+      {
+        label: "LLMs",
+        href: "/llms.txt",
+      },
+    ],
+  },
+] satisfies FooterCategory[];

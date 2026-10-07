@@ -1,0 +1,754 @@
+import { walk } from "jsr:@std/fs";
+import { parse as yamlParse } from "jsr:@std/yaml";
+import { Sidebar } from "../types.ts";
+
+export const sidebar = [
+  {
+    title: "Get started",
+    items: [
+      {
+        title: "Welcome to Deno",
+        href: "/runtime/",
+      },
+      {
+        title: "Installation",
+        href: "/runtime/getting_started/installation/",
+      },
+      {
+        title: "Setup your environment",
+        href: "/runtime/getting_started/setup_your_environment/",
+      },
+    ],
+  },
+  {
+    title: "Guides",
+    items: [
+      {
+        title: "Running code",
+        href: "/runtime/run/",
+        disclosure: true,
+        items: [
+          {
+            title: "Watch mode and HMR",
+            href: "/runtime/run/watch_mode/",
+          },
+        ],
+      },
+      {
+        title: "Dependency management",
+        href: "/runtime/packages/",
+        disclosure: true,
+        items: [
+          {
+            title: "Publishing",
+            href: "/runtime/packages/publishing/",
+          },
+          {
+            title: "Supply chain",
+            href: "/runtime/packages/supply_chain/",
+          },
+          {
+            title: "Peer dependencies",
+            href: "/runtime/packages/peer_dependencies/",
+          },
+          {
+            title: "Private repositories",
+            href: "/runtime/packages/private_repositories/",
+          },
+        ],
+      },
+      {
+        title: "Web development",
+        href: "/runtime/fundamentals/web_dev/",
+      },
+      {
+        title: "JSX and React",
+        href: "/runtime/reference/jsx/",
+      },
+      {
+        title: "HTTP Server",
+        href: "/runtime/fundamentals/http_server/",
+      },
+      {
+        title: "Testing",
+        href: "/runtime/test/",
+        disclosure: true,
+        items: [
+          {
+            title: "Mocking",
+            href: "/runtime/test/mocking/",
+          },
+          {
+            title: "Snapshots",
+            href: "/runtime/test/snapshots/",
+          },
+          {
+            title: "Coverage",
+            href: "/runtime/test/coverage/",
+          },
+          {
+            title: "Documentation tests",
+            href: "/runtime/test/doc_tests/",
+          },
+          {
+            title: "Sanitizers",
+            href: "/runtime/test/sanitizers/",
+          },
+          {
+            title: "Migrating from Jest",
+            href: "/runtime/test/migrate_from_jest/",
+          },
+        ],
+      },
+      {
+        title: "Linting and formatting",
+        href: "/runtime/lint_and_format/",
+      },
+      {
+        title: "Migrating from Node",
+        href: "/runtime/migrate/",
+        disclosure: true,
+        items: [
+          {
+            title: "Migrate from npm",
+            href: "/runtime/migrate/migrate_from_npm/",
+          },
+          {
+            title: "Migrate from Yarn",
+            href: "/runtime/migrate/migrate_from_yarn/",
+          },
+          {
+            title: "Migrate from pnpm",
+            href: "/runtime/migrate/migrate_from_pnpm/",
+          },
+          {
+            title: "Migrate from Bun",
+            href: "/runtime/migrate/migrate_from_bun/",
+          },
+        ],
+      },
+      {
+        title: "Building CLI apps",
+        href: "/runtime/cli_apps/",
+      },
+      {
+        title: "Desktop apps",
+        href: "/runtime/desktop/",
+        disclosure: true,
+        items: [
+          {
+            title: "Configuration",
+            href: "/runtime/desktop/configuration/",
+          },
+          {
+            title: "Backends",
+            href: "/runtime/desktop/backends/",
+          },
+          {
+            title: "HTTP serving",
+            href: "/runtime/desktop/serving/",
+          },
+          {
+            title: "Frameworks",
+            href: "/runtime/desktop/frameworks/",
+          },
+          {
+            title: "Windows",
+            href: "/runtime/desktop/windows/",
+          },
+          {
+            title: "WebGPU rendering",
+            href: "/runtime/desktop/webgpu/",
+          },
+          {
+            title: "Bindings",
+            href: "/runtime/desktop/bindings/",
+          },
+          {
+            title: "Menus",
+            href: "/runtime/desktop/menus/",
+          },
+          {
+            title: "Tray and dock",
+            href: "/runtime/desktop/tray_and_dock/",
+          },
+          {
+            title: "Dialogs",
+            href: "/runtime/desktop/dialogs/",
+          },
+          {
+            title: "Notifications",
+            href: "/runtime/desktop/notifications/",
+          },
+          {
+            title: "Hot module replacement",
+            href: "/runtime/desktop/hmr/",
+          },
+          {
+            title: "DevTools",
+            href: "/runtime/desktop/devtools/",
+          },
+          {
+            title: "Auto-update",
+            href: "/runtime/desktop/auto_update/",
+          },
+          {
+            title: "Error reporting",
+            href: "/runtime/desktop/error_reporting/",
+          },
+          {
+            title: "Distribution",
+            href: "/runtime/desktop/distribution/",
+          },
+          {
+            title: "Comparison",
+            href: "/runtime/desktop/comparison/",
+          },
+        ],
+      },
+      {
+        title: "Deploying your app",
+        href: "/runtime/deploy/",
+      },
+    ],
+  },
+  {
+    title: "Concepts",
+    items: [
+      {
+        title: "TypeScript",
+        href: "/runtime/fundamentals/typescript/",
+      },
+      {
+        title: "Node",
+        href: "/runtime/fundamentals/node/",
+      },
+      {
+        title: "Security",
+        href: "/runtime/fundamentals/security/",
+      },
+      {
+        title: "Modules",
+        href: "/runtime/fundamentals/modules/",
+      },
+      {
+        title: "Config files",
+        href: "/runtime/fundamentals/configuration/",
+      },
+      {
+        title: "Workspaces",
+        href: "/runtime/fundamentals/workspaces/",
+      },
+      {
+        title: "Stability and releases",
+        href: "/runtime/fundamentals/stability_and_releases/",
+      },
+    ],
+  },
+  {
+    title: "Diagnostics",
+    items: [
+      {
+        title: "Debugging",
+        href: "/runtime/fundamentals/debugging/",
+      },
+      {
+        title: "CPU profiling",
+        href: "/runtime/fundamentals/cpu_profiling/",
+      },
+      {
+        title: "OpenTelemetry",
+        href: "/runtime/fundamentals/open_telemetry/",
+      },
+    ],
+  },
+  {
+    title: "Advanced",
+    items: [
+      {
+        title: "FFI",
+        href: "/runtime/fundamentals/ffi/",
+      },
+      {
+        title: "WebAssembly",
+        href: "/runtime/reference/wasm/",
+      },
+      {
+        title: "Cron",
+        href: "/runtime/fundamentals/cron/",
+      },
+      {
+        title: "Loader hooks",
+        href: "/runtime/reference/loader_hooks/",
+      },
+      {
+        title: "Lint plugins",
+        href: "/runtime/reference/lint_plugins/",
+      },
+      {
+        title: "Bundling",
+        href: "/runtime/reference/bundling/",
+      },
+      {
+        title: "Docker",
+        href: "/runtime/reference/docker/",
+      },
+      {
+        title: "Continuous integration",
+        href: "/runtime/reference/continuous_integration/",
+      },
+      {
+        title: "Deno & VS Code",
+        href: "/runtime/reference/vscode/",
+      },
+    ],
+  },
+  {
+    title: "Reference",
+    items: [
+      {
+        title: "Overview",
+        href: "/runtime/reference/",
+      },
+      {
+        title: "CLI",
+        href: "/runtime/reference/cli/",
+        disclosure: true,
+        items: [
+          {
+            title: "deno add",
+            href: "/runtime/reference/cli/add/",
+          },
+          {
+            title: "deno approve-scripts",
+            href: "/runtime/reference/cli/approve_scripts/",
+          },
+          {
+            title: "deno audit",
+            href: "/runtime/reference/cli/audit/",
+          },
+          {
+            title: "deno bench",
+            href: "/runtime/reference/cli/bench/",
+          },
+          {
+            title: "deno bump-version",
+            href: "/runtime/reference/cli/bump_version/",
+          },
+          {
+            title: "deno bundle",
+            href: "/runtime/reference/cli/bundle/",
+          },
+          {
+            title: "deno check",
+            href: "/runtime/reference/cli/check/",
+          },
+          {
+            title: "deno ci",
+            href: "/runtime/reference/cli/ci/",
+          },
+          {
+            title: "deno clean",
+            href: "/runtime/reference/cli/clean/",
+          },
+          {
+            title: "deno compile",
+            href: "/runtime/reference/cli/compile/",
+          },
+          {
+            title: "deno create",
+            href: "/runtime/reference/cli/create/",
+          },
+          {
+            title: "deno completions",
+            href: "/runtime/reference/cli/completions/",
+          },
+          {
+            title: "deno coverage",
+            href: "/runtime/reference/cli/coverage/",
+          },
+          {
+            title: "deno deploy",
+            href: "/runtime/reference/cli/deploy/",
+          },
+          {
+            title: "deno desktop",
+            href: "/runtime/reference/cli/desktop/",
+          },
+          {
+            title: "deno doc",
+            href: "/runtime/reference/cli/doc/",
+          },
+          {
+            title: "deno eval",
+            href: "/runtime/reference/cli/eval/",
+          },
+          {
+            title: "deno fmt",
+            href: "/runtime/reference/cli/fmt/",
+          },
+          {
+            title: "deno info",
+            href: "/runtime/reference/cli/info/",
+          },
+          {
+            title: "deno init",
+            href: "/runtime/reference/cli/init/",
+          },
+          {
+            title: "deno install",
+            href: "/runtime/reference/cli/install/",
+          },
+          {
+            title: "deno jupyter",
+            href: "/runtime/reference/cli/jupyter/",
+          },
+          {
+            title: "deno link",
+            href: "/runtime/reference/cli/link/",
+          },
+          {
+            title: "deno lint",
+            href: "/runtime/reference/cli/lint/",
+          },
+          {
+            title: "deno list",
+            href: "/runtime/reference/cli/list/",
+          },
+          {
+            title: "deno outdated",
+            href: "/runtime/reference/cli/outdated/",
+          },
+          {
+            title: "deno pack",
+            href: "/runtime/reference/cli/pack/",
+          },
+          {
+            title: "deno publish",
+            href: "/runtime/reference/cli/publish/",
+          },
+          {
+            title: "deno lsp",
+            href: "/runtime/reference/cli/lsp/",
+          },
+          {
+            title: "deno remove",
+            href: "/runtime/reference/cli/remove/",
+          },
+          {
+            title: "deno repl",
+            href: "/runtime/reference/cli/repl/",
+          },
+          {
+            title: "deno run",
+            href: "/runtime/reference/cli/run/",
+          },
+          {
+            title: "deno sandbox",
+            href: "/runtime/reference/cli/sandbox/",
+          },
+          {
+            title: "deno serve",
+            href: "/runtime/reference/cli/serve/",
+          },
+          {
+            title: "deno task",
+            href: "/runtime/reference/cli/task/",
+          },
+          {
+            title: "deno test",
+            href: "/runtime/reference/cli/test/",
+          },
+          {
+            title: "deno transpile",
+            href: "/runtime/reference/cli/transpile/",
+          },
+          {
+            title: "deno types",
+            href: "/runtime/reference/cli/types/",
+          },
+          {
+            title: "deno uninstall",
+            href: "/runtime/reference/cli/uninstall/",
+          },
+          {
+            title: "deno unlink",
+            href: "/runtime/reference/cli/unlink/",
+          },
+          {
+            title: "deno update",
+            href: "/runtime/reference/cli/update/",
+          },
+          {
+            title: "deno upgrade",
+            href: "/runtime/reference/cli/upgrade/",
+          },
+          {
+            title: "deno unstable flags",
+            href: "/runtime/reference/cli/unstable_flags/",
+          },
+          {
+            title: "deno watch",
+            href: "/runtime/reference/cli/watch/",
+          },
+          {
+            title: "deno why",
+            href: "/runtime/reference/cli/why/",
+          },
+          {
+            title: "deno x",
+            href: "/runtime/reference/cli/x/",
+          },
+        ],
+      },
+      {
+        title: "Standard library",
+        href: "/runtime/reference/std/",
+        disclosure: true,
+        items: [
+          ...[
+            "assert",
+            "async",
+            "bytes",
+            "cache",
+            "cbor",
+            "cli",
+            "collections",
+            "crypto",
+            "csv",
+            "data-structures",
+            "datetime",
+            "dotenv",
+            "encoding",
+            "expect",
+            "fmt",
+            "front-matter",
+            "fs",
+            "html",
+            "http",
+            "ini",
+            "internal",
+            "io",
+            "json",
+            "jsonc",
+            "log",
+            "media-types",
+            "msgpack",
+            "net",
+            "path",
+            "random",
+            "regexp",
+            "semver",
+            "streams",
+            "tar",
+            "testing",
+            "text",
+            "toml",
+            "ulid",
+            "uuid",
+            "webgpu",
+            "xml",
+            "yaml",
+          ].map((name) => ({
+            title: name,
+            href: `/runtime/reference/std/${name}/`,
+          })),
+        ],
+      },
+      {
+        title: "deno.json",
+        href: "/runtime/reference/deno_json/",
+      },
+      {
+        title: "TypeScript",
+        href: "/runtime/reference/ts_config_migration/",
+      },
+      {
+        title: "Environment variables",
+        href: "/runtime/reference/env_variables/",
+      },
+      {
+        title: "Permissions",
+        href: "/runtime/reference/permissions/",
+      },
+      {
+        title: "LSP integration",
+        href: "/runtime/reference/lsp_integration/",
+      },
+      {
+        title: "Lint rules",
+        href: "/lint/",
+      },
+    ],
+  },
+  {
+    title: "Contributing",
+    items: [
+      {
+        title: "Overview",
+        href: "/runtime/contributing/",
+      },
+      {
+        title: "Architecture",
+        href: "/runtime/contributing/architecture/",
+      },
+      {
+        title: "Style guide",
+        href: "/runtime/contributing/style_guide/",
+      },
+      {
+        title: "Help",
+        href: "/runtime/help/",
+      },
+    ],
+  },
+] satisfies Sidebar;
+
+export const sectionTitle = "Runtime";
+export const sectionHref = "/runtime/";
+
+export interface Description {
+  kind: "note" | "tip" | "info" | "caution";
+  description: string;
+}
+function handleDescription(description: Description | string): Description {
+  if (typeof description === "string") {
+    return {
+      kind: "caution",
+      description,
+    };
+  } else {
+    return description;
+  }
+}
+
+export type Descriptions = Record<string, DescriptionItem>;
+
+type DescriptionItem = {
+  status: "good" | "partial" | "stubs" | "unsupported";
+  description?: Description;
+  symbols?: Record<string, Description>;
+};
+
+export async function generateDescriptions(): Promise<Descriptions> {
+  const descriptions: Descriptions = {};
+  for await (
+    const dirEntry of walk(
+      new URL(import.meta.resolve("../reference_gen/node_descriptions")),
+      { exts: ["yaml"] },
+    )
+  ) {
+    const file = await Deno.readTextFile(dirEntry.path);
+    const parsed = yamlParse(file) as Partial<DescriptionItem> & {
+      description?: Description | string;
+      symbols?: Record<string, Description | string>;
+    };
+    if (!parsed) {
+      throw `Invalid or empty file: ${dirEntry.path}`;
+    }
+    if (parsed.description) {
+      parsed.description = handleDescription(parsed.description);
+    }
+
+    if (parsed.symbols) {
+      parsed.symbols = Object.fromEntries(
+        Object.entries(parsed.symbols).map(([key, value]) => [
+          key,
+          handleDescription(value as Description | string),
+        ]),
+      );
+    }
+
+    if (
+      !(
+        parsed.status === "good" ||
+        parsed.status === "partial" ||
+        parsed.status === "stubs" ||
+        parsed.status === "unsupported"
+      )
+    ) {
+      throw `Invalid status provided in '${dirEntry.name}': ${parsed.status}`;
+    }
+
+    descriptions[dirEntry.name.slice(0, -5)] = parsed as DescriptionItem;
+  }
+
+  return descriptions;
+}
+
+/*
+generates the node compat list for the Node Support page.
+This the data is read from the files in the reference_gen/node_description directory.
+This function is called in node.md through the templating engine Vento,
+after which the normal markdown rendered is called.
+ */
+export async function generateNodeCompatibility() {
+  const descriptions = await generateDescriptions();
+  const sorted = Object.entries(descriptions).toSorted(([keyA], [keyB]) =>
+    keyA.localeCompare(keyB)
+  );
+  const grouped: Record<
+    string,
+    { label: string; icon: string; items: Array<[string, DescriptionItem]> }
+  > = {
+    good: {
+      label: "Fully supported modules",
+      icon:
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#22c55e"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>',
+      items: [],
+    },
+    partial: {
+      label: "Partially supported modules",
+      icon:
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#6366f1"><path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" /></svg>',
+      items: [],
+    },
+    unsupported: {
+      label: "Unsupported modules",
+      icon:
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#ef4444"><path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>',
+      items: [],
+    },
+  };
+  for (const item of sorted) {
+    grouped[item[1].status].items.push(item);
+  }
+
+  return Object.entries(grouped)
+    .map(([_status, entries]) => {
+      let content =
+        `<div class="module-info">\n\n## ${entries.icon} ${entries.label} (${entries.items.length}/${
+          Object.keys(descriptions).length
+        })\n\n`;
+
+      content += entries.items
+        .map(([key, content]) => {
+          const link = key.replaceAll("--", "/");
+          let out =
+            `\n\n### <a href="/api/node/${link}">node:${link}</a>\n\n<div class="item-content">\n\n`;
+
+          if (content) {
+            if (content.description) {
+              out += `${content.description.description}\n\n`;
+            }
+            if (content.symbols) {
+              for (
+                const [symbol, description] of Object.entries(
+                  content.symbols,
+                )
+              ) {
+                out += `**${
+                  symbol === "*" ? "All symbols" : symbol
+                }**: ${description.description}\n\n`;
+              }
+            }
+          }
+
+          return out + "</div>";
+        })
+        .join("\n\n");
+
+      return content;
+    })
+    .join("\n\n");
+}
