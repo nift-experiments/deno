@@ -12,7 +12,7 @@ import relative from '../authored/markdown-it/relative-path.ts';
 import toc from 'https://deno.land/x/lume_markdown_plugins@v0.7.0/toc/mod.ts';
 import makeSlugifier from 'lume/core/slugifier.ts';
 import deriveTitle from 'https://deno.land/x/lume_markdown_plugins@v0.7.0/title/mod.ts';
-export const markdownMetrics={markdown_inclusive_s:0,prism_subset_s:0,render_calls:0};
+export const markdownMetrics={markdown_inclusive_s:0,prism_subset_s:0,markdown_parse_subset_s:0,render_calls:0};
 
 export const markdown = markdownIt({html:true,linkify:true,
   langPrefix:'highlight notranslate language-',
@@ -35,3 +35,8 @@ for(const method of ['render','renderInline'] as const){
  };
 }
 export const md=(text:string,inline=false)=> (inline?markdown.renderInline(text?.toString()||''):markdown.render(text?.toString()||'')).trim();
+
+for(const method of ['parse','parseInline'] as const){
+ const original=markdown[method].bind(markdown);
+ markdown[method]=(...args:unknown[])=>{const start=performance.now();try{return original(...args);}finally{markdownMetrics.markdown_parse_subset_s+=(performance.now()-start)/1000;}};
+}

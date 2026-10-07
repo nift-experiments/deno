@@ -8,11 +8,22 @@ import time
 def publish(root, model):
     started=time.perf_counter()
     owned=[]
+    copy_categories={name:0 for name in ['static_assets','og_assets','markdown_downloads','redirects','search','llms']}
+    copy_s=0
+    copied_bytes=0
     def copy(source,target):
+        nonlocal copy_s,copied_bytes
+        copy_start=time.perf_counter()
         dst=root/'public'/target
         dst.parent.mkdir(parents=True,exist_ok=True)
         shutil.copyfile(source,dst)
         owned.append(target)
+        copied_bytes+=source.stat().st_size
+        elapsed=time.perf_counter()-copy_start
+        copy_s+=elapsed
+        relative=source.relative_to(root).as_posix()
+        category='og_assets' if relative.startswith('assets/og/') else 'markdown_downloads' if source.suffix=='.md' else 'redirects' if 'redirects.json' in source.name else 'search' if 'orama-index' in source.name else 'llms' if source.name.startswith('llms') else 'static_assets'
+        copy_categories[category]+=elapsed
     for p in sorted((root/'assets').rglob('*')):
         if p.is_file() and p.relative_to(root/'assets').parts[0]!='og':
             rel=p.relative_to(root/'assets').as_posix()
@@ -29,7 +40,7 @@ def publish(root, model):
     else:
         for p in (root/'exports').rglob('*.md'):copy(p,p.relative_to(root/'exports').as_posix())
         for p in (root/'data/publication').glob('*'):copy(p,p.name)
-    copy(root/'data/redirects.json','_redirects.json')
+    copy(root/('.generated/redirects.json' if model=='deno' else 'data/redirects.json'),'_redirects.json')
     api=root/'.generated/api-redirects.json'if model=='deno'else root/'data/api-redirects.json'
     copy(api,'api/_redirects.json')
     dates=json.loads((root/'data/sitemap-dates.json').read_text())
@@ -52,4 +63,4 @@ def publish(root, model):
     owned=sorted(set(owned))
     for stale in set(old)-set(owned):(root/'public'/stale).unlink(missing_ok=True)
     ledger.write_text(json.dumps(owned,indent=2)+'\n')
-    return {'publication_s':time.perf_counter()-started,'non_html_outputs':len(owned)}
+    return {'publication_s':time.perf_counter()-started,'non_html_outputs':len(owned),'copy_subset_s':copy_s,'copy_categories_subset_s':copy_categories,'copied_bytes':copied_bytes,'content_negotiation_generation_s':0,'content_negotiation_model':'maintained runtime middleware; copied Markdown download artifacts'}
